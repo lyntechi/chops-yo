@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Recipes from "./components/Recipes";
 import About from "./components/About";
+import Hours from './components/Hours'
 
 export default function App() {
   return (
@@ -19,6 +20,9 @@ export default function App() {
       </section>
       <section className="about-section">
         <About />
+      </section>
+      <section className="hours-section">
+        <Hours />
       </section>
     </div>
   );

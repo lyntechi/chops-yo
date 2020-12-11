@@ -8,9 +8,9 @@ export default function About() {
       <img src={dishicon} alt="" className="dish-icon" />
       <h1 className="about-h1">About Our Food & Restaurant</h1>
       <p className="about-p">
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at it's layout. The point of
-        using Lorem. It is a long established fact that a reader.
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin
       </p>
       <div className="about-grid">
         <div className="left-col-about">
