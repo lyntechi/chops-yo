@@ -3,6 +3,7 @@ import bowl from "../images/bowl.png";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaSearch } from "react-icons/fa";
 import TemporaryDrawer from "./TemporaryDrawer";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
@@ -10,7 +11,9 @@ export default function Nav() {
       <div className="listItems">
         <div className="img-logo">
           <img src={bowl} alt="" className="bowlImg" />
-          <h1 className="nav-h1">CHOPS-YO</h1>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <h1 className="nav-h1">CHOPS-YO</h1>
+          </Link>
         </div>
         <p>
           Contact Us: <FiPhoneCall /> 484.627.9598

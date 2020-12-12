@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Recipes({ data, title }) {
   return (
@@ -8,7 +9,10 @@ export default function Recipes({ data, title }) {
         {data.map((item) => {
           return (
             <div className="recipe-titles">
-              <img src={item.image} alt="" className="recipe-img" />
+              <Link to={`/item/${item.id}`}>
+                {" "}
+                <img src={item.image} alt="" className="recipe-img" />
+              </Link>
               <p className="recipes-p">{item.name}</p>
               <p className="recipes-p">
                 <span className="dollar-sign">$</span>
