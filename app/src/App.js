@@ -7,6 +7,8 @@ import About from "./components/About";
 import Hours from "./components/Hours";
 import Chefs from "./components/Chefs";
 import Reservations from "./components/Reservations";
+import { data } from "./data";
+import { desertsdata } from "./data";
 
 export default function App() {
   return (
@@ -18,7 +20,10 @@ export default function App() {
         <Header />
       </section>
       <section className="recipes-section">
-        <Recipes />
+        <Recipes data={data} title={"Popular Foods"} />
+      </section>
+      <section className="recipes-section">
+        <Recipes data={desertsdata} title={"Popular Deserts"} />
       </section>
       <section className="about-section">
         <About />

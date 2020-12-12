@@ -10,10 +10,12 @@ export default function Chefs() {
       <h1 className="chefs-h1">Our Chefs</h1>
       <p className="chefs-p">
         <AiOutlineMinus className="dash" />
-        The Masters Behind The Best Foods <AiOutlineMinus className="dash" />
+        The Masters Behind Our Best Foods <AiOutlineMinus className="dash" />
       </p>
-     <div className="cards-container"> <Cards /></div>
-     
+      <div className="cards-container">
+        {" "}
+        <Cards />
+      </div>
     </div>
   );
 }

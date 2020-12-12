@@ -31,6 +31,38 @@ export const data = [
     price: 40,
   },
 ];
+export const desertsdata = [
+  {
+    image:
+      "http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Ice-Cream-PNG-Transparent-Image.png",
+    name: "Strawberry Cinnamon",
+    price: 40,
+  },
+  {
+    image:
+      "https://juliomiguel3.files.wordpress.com/2015/04/wpid-halo-halo-from-choking.png",
+    name: "All Mix Icecream",
+    price: 30,
+  },
+  {
+    image:
+      "https://babcockhalldairystore.wisc.edu/wp-content/uploads/2018/02/Grasshopper-Ice-Cream-transparent-background-400x400.png",
+    name: "Pisatchio Icecream",
+    price: 15,
+  },
+  {
+    image:
+      "https://userscontent2.emaze.com/images/59c9d840-72e6-4e17-b371-fbb208277117/81ff6386d56c1969cf49e3ab49fcc797.png",
+    name: "Cherry Pie",
+    price: 20,
+  },
+  {
+    image:
+      "https://www.pngarts.com/files/1/Ice-Cream-Desserts-Transparent-Images.png",
+    name: "Three Flavored",
+    price: 12,
+  },
+];
 
 export const chefData = [
   {
@@ -47,7 +79,7 @@ export const chefData = [
   {
     image:
       "https://www.hotelierindia.com/public/images/2017/12/20/Chef-Cheang-Chee-Leong-2048x1536px.jpg",
-      name: "JOHN DOE",
-      title: "FISH CHEF",
-    },
+    name: "JOHN DOE",
+    title: "FISH CHEF",
+  },
 ];

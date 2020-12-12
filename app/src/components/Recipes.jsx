@@ -1,10 +1,9 @@
 import React from "react";
-import { data } from "../data";
 
-export default function Recipes() {
+export default function Recipes({ data, title }) {
   return (
     <div className="recipes-container">
-      <h1 className="recipes-h1">Our Recipes</h1>
+      <h1 className="recipes-h1">{title}</h1>
       <div className="recipes">
         {data.map((item) => {
           return (

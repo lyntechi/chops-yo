@@ -47,7 +47,8 @@ export default function Reservations() {
           <DatePickers /> <br />
         </div>
         <textarea />
-      </form>
+      </form>{" "}
+      <button className='form-btn'>Submit Reservation</button>
     </div>
   );
 }
