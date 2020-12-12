@@ -4,7 +4,9 @@ import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Recipes from "./components/Recipes";
 import About from "./components/About";
-import Hours from './components/Hours'
+import Hours from "./components/Hours";
+import Chefs from "./components/Chefs";
+import Reservations from "./components/Reservations";
 
 export default function App() {
   return (
@@ -23,6 +25,12 @@ export default function App() {
       </section>
       <section className="hours-section">
         <Hours />
+      </section>
+      <section className="chefs-section">
+        <Chefs />
+      </section>
+      <section className="reservations-section">
+        <Reservations />
       </section>
     </div>
   );

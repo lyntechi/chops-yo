@@ -4,7 +4,7 @@ export default function Hours() {
   return (
     <div className="hours-container">
       <h1 className="hours-h1">OPENING HOURS</h1>
-      <p className="hours-p">Call For Reservations</p>
+      <p className="hours-p">Call For Reservations Or Schedule Below</p>
       <div className="hours-flex">
         <div className="hours-left">
           <h3 className="hours-h3">

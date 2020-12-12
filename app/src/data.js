@@ -31,3 +31,23 @@ export const data = [
     price: 40,
   },
 ];
+
+export const chefData = [
+  {
+    image:
+      "https://news.stonybrook.edu/wp-content/uploads/2019/01/kwame-top-chef.jpg",
+    name: "JOHN DOE",
+    title: "HEAD CHEF",
+  },
+  {
+    image: "https://www.ecpi.edu/sites/default/files/CIV%20Sept%2026.png",
+    name: "JANE DOE",
+    title: "PASTA CHEF",
+  },
+  {
+    image:
+      "https://www.hotelierindia.com/public/images/2017/12/20/Chef-Cheang-Chee-Leong-2048x1536px.jpg",
+      name: "JOHN DOE",
+      title: "FISH CHEF",
+    },
+];
