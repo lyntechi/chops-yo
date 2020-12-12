@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { foodItem } from "../data";
 import cart from "../images/cart.png";
+import Review from "./Review";
 
 export default function IndividualItem() {
   const params = useParams();
   const product = foodItem.find((item) => `${item.id}` === params.id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="individualItemContainer">
       <div className="individual-grid">
@@ -53,6 +59,11 @@ export default function IndividualItem() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="reviews-and-tab">
+        <p className="review-btn">REVIEWS</p>
+
+        <Review />
       </div>
     </div>
   );

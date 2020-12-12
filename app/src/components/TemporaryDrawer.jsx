@@ -10,7 +10,8 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { GiHamburgerMenu } from "react-icons/gi";
 const useStyles = makeStyles({
   list: {
-    width: 250
+    width: 250,
+  
   },
   fullList: {
     width: "auto"

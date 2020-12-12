@@ -8,9 +8,11 @@ import Hours from "./components/Hours";
 import Chefs from "./components/Chefs";
 import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
-import { data } from "./data";
-import { desertsdata } from "./data";
+import FoodMenu from "./components/FoodMenu";
+import DesertMenu from "./components/DesertMenu";
+import { data, fullMenu, desertsdata, desertMenu, beveragesData } from "./data";
 import { Route } from "react-router-dom";
+import { BsArrowBarRight } from "react-icons/bs";
 
 export default function App() {
   return (
@@ -23,10 +25,28 @@ export default function App() {
           <Header />
         </section>
         <section className="recipes-section">
-          <Recipes data={data} title={"Popular Foods"} />
+          <Recipes
+            data={data}
+            title={"Trending Foods"}
+            foodMenu="Go To Full Menu"
+            foodlogo={<BsArrowBarRight className="arrow" />}
+          />
         </section>
         <section className="recipes-section">
-          <Recipes data={desertsdata} title={"Popular Deserts"} />
+          <Recipes
+            data={desertsdata}
+            title={"Trending Desserts"}
+            desertMenu="Go To Full Menu"
+            desertlogo={<BsArrowBarRight className="arrow" />}
+          />
+        </section>
+        <section className="recipes-section">
+          <Recipes
+            data={beveragesData}
+            title={"Trending Drinks"}
+            desertMenu="Go To Full Menu"
+            desertlogo={<BsArrowBarRight className="arrow" />}
+          />
         </section>
         <section className="about-section">
           <About />
@@ -44,6 +64,16 @@ export default function App() {
       <Route exact path="/item/:id">
         <section className="individual-section">
           <IndividualItem />
+        </section>
+      </Route>
+      <Route exact path="/menu">
+        <section className="menu-section">
+          <FoodMenu fullMenu={fullMenu} />
+        </section>
+      </Route>
+      <Route exact path="/desert-menu">
+        <section className="menu-section">
+          <DesertMenu desertMenu={desertMenu} />
         </section>
       </Route>
     </div>
