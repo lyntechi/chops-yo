@@ -9,6 +9,8 @@ export default function Recipes({
   desertMenu,
   foodlogo,
   desertlogo,
+  drinkslogo,
+  drinksTitle,
 }) {
   return (
     <div className="recipes-container">
@@ -42,6 +44,13 @@ export default function Recipes({
         <p className="see-more">
           {desertMenu}
           {desertlogo}
+        </p>
+      </Link>
+      <Link to="/drinks-menu" style={{ textDecoration: "none" }}>
+        {" "}
+        <p className="see-more">
+          {drinksTitle}
+          {drinkslogo}
         </p>
       </Link>
     </div>

@@ -77,15 +77,15 @@ export const beveragesData = [
   {
     id: 27,
     image:
-      "https://d1sca6vi4fbl8x.cloudfront.net/media/product/image/product_corona.png.750x750_q85ss0_progressive.png",
-    name: "Corona Virus",
+      "https://img.pngio.com/bloody-mary-png-92-images-in-collection-page-3-bloody-mary-png-305_329.png",
+    name: "Bloody Mary",
     price: 35,
   },
   {
     id: 28,
     image:
       "https://i2.wp.com/freepngimages.com/wp-content/uploads/2016/03/summer-fruits-drink-transparent-background.png?fit=624%2C624",
-    name: "Orange Cocktail",
+    name: "Strawberry Orange",
     price: 15,
   },
   {
@@ -134,7 +134,7 @@ export const foodItem = [
   {
     id: 2,
     image:
-      "http://cdn-image.foodandwine.com/sites/default/files/styles/rd_feature_image/public/HD-201310-r-spicy-guacamole-recipe.jpg?itok=x03vdALc",
+      "https://dinnerthendessert.com/wp-content/uploads/2015/09/Chips-and-Guacamole-Close.jpg",
     name: "Guac And Chips",
     rating: "https://mibaileperfecto.files.wordpress.com/2015/06/stars.png",
     price: 10,
@@ -370,6 +370,71 @@ export const foodItem = [
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
     price: 30,
     type: "DESSERT",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 25,
+    image:
+      "https://cf.ltkcdn.net/cocktails/images/orig/253009-2121x1414-peach-sangria.jpg",
+    name: "Peach Cocktail",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 40,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 26,
+    image:
+      "http://www.onlyfoods.net/wp-content/uploads/2017/11/Best-New-Mojito-Drink-Recipe-Using-Captain-Morgan-Rum.jpg",
+    name: "Mojito",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 20,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 27,
+    image:
+      "https://uk.thebar.com/assets/en-gb/Images/AI/34660_dia_1425_950_4_bloody-mary_46$$069A0000001gyN1IAI.jpg?maxheight=950&maxwidth=1425&quality=80",
+    name: "Bloody Mary",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 35,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 28,
+    image:
+      "https://cdn.pixabay.com/photo/2015/09/02/13/26/cocktail-919074_960_720.jpg",
+    name: "Strawberry Orange",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 15,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 29,
+    image:
+      "https://www.artofdrink.com/wp-content/uploads/2016/02/rum-coke-coca-cola-cuba-libre-735x490.jpg",
+    name: "Dirty Cola",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 30,
+    type: "ALCOHOLIC",
     availability: "IN STOCK",
     about:
       "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",

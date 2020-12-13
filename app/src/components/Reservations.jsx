@@ -3,7 +3,6 @@ import { GiCrenelCrown } from "react-icons/gi";
 import { AiOutlineMinus } from "react-icons/ai";
 import DatePickers from "./DatePickers";
 
-
 export default function Reservations() {
   return (
     <div className="reservations-container">
@@ -47,9 +46,9 @@ export default function Reservations() {
           <br />
           <DatePickers /> <br />
         </div>
-        <textarea placeholder='ANYTHING ELSE WE SHOULD KNOW?'/>
+        <textarea placeholder="ANYTHING ELSE WE SHOULD KNOW?" />
       </form>{" "}
-      <button className='form-btn'>Find A Table</button>
+      <button className="form-btn">FIND A TABLE</button>
     </div>
   );
 }

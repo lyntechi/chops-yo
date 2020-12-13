@@ -10,6 +10,7 @@ import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
 import FoodMenu from "./components/FoodMenu";
 import DesertMenu from "./components/DesertMenu";
+import DrinksMenu from "./components/DrinksMenu";
 import { data, fullMenu, desertsdata, desertMenu, beveragesData } from "./data";
 import { Route } from "react-router-dom";
 import { BsArrowBarRight } from "react-icons/bs";
@@ -44,8 +45,8 @@ export default function App() {
           <Recipes
             data={beveragesData}
             title={"Trending Drinks"}
-            desertMenu="Go To Full Menu"
-            desertlogo={<BsArrowBarRight className="arrow" />}
+            drinksTitle="Go To Full Menu"
+            drinkslogo={<BsArrowBarRight className="arrow" />}
           />
         </section>
         <section className="about-section">
@@ -74,6 +75,11 @@ export default function App() {
       <Route exact path="/desert-menu">
         <section className="menu-section">
           <DesertMenu desertMenu={desertMenu} />
+        </section>
+      </Route>
+      <Route exact path="/drinks-menu">
+        <section className="menu-section">
+          <DrinksMenu beveragesData={beveragesData} />
         </section>
       </Route>
     </div>

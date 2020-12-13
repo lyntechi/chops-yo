@@ -15,7 +15,7 @@ export default function IndividualItem() {
   return (
     <div className="individualItemContainer">
       <div className="individual-grid">
-        <div>
+        <div className="individual-left-col">
           <img src={product.image} className="individual-img" alt="" />
         </div>
         <div className="individual-right-col">
