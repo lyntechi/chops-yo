@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { foodItem } from "../data";
+import { infoAboutItem } from "../data";
 import cart from "../images/cart.png";
 import Review from "./Review";
 
 export default function IndividualItem() {
   const params = useParams();
-  const product = foodItem.find((item) => `${item.id}` === params.id);
+  const product = infoAboutItem.find((item) => `${item.id}` === params.id);
 
   useEffect(() => {
     window.scrollTo(0, 0);

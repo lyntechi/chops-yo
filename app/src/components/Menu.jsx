@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-export default function FoodMenu({ fullMenu }) {
+export default function Menu({ menu }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="menu-container">
-      {fullMenu.map((item) => {
+      {menu.map((item) => {
         return (
           <div className="menu-titles">
             <Link to={`/item/${item.id}`}>

@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Recipes({
+export default function Trending({
   data,
   title,
-  foodMenu,
-  desertMenu,
-  foodlogo,
-  desertlogo,
-  drinkslogo,
-  drinksTitle,
+  arrowForFoods,
+  arrowForDesserts,
+  arrowForDrinks,
+  goToDrinksMenu,
+  goToDessertsMenu,
+  goToFoodsMenu,
 }) {
   return (
-    <div className="recipes-container">
+    <div className="trending-container">
       <h1 className="recipes-h1">{title}</h1>
       <div className="recipes">
         {data.map((item) => {
@@ -34,22 +34,22 @@ export default function Recipes({
       <Link to="/menu" style={{ textDecoration: "none" }}>
         {" "}
         <p className="see-more">
-          {foodMenu}
-          {foodlogo}
+          {goToFoodsMenu}
+          {arrowForFoods}
         </p>
       </Link>
       <Link to="/desert-menu" style={{ textDecoration: "none" }}>
         {" "}
         <p className="see-more">
-          {desertMenu}
-          {desertlogo}
+          {goToDessertsMenu}
+          {arrowForDesserts}
         </p>
       </Link>
       <Link to="/drinks-menu" style={{ textDecoration: "none" }}>
         {" "}
         <p className="see-more">
-          {drinksTitle}
-          {drinkslogo}
+          {goToDrinksMenu}
+          {arrowForDrinks}
         </p>
       </Link>
     </div>

@@ -2,16 +2,21 @@ import React from "react";
 import "./index.css";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
-import Recipes from "./components/Recipes";
+import Trending from "./components/Trending";
 import About from "./components/About";
 import Hours from "./components/Hours";
 import Chefs from "./components/Chefs";
 import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
-import FoodMenu from "./components/FoodMenu";
-import DesertMenu from "./components/DesertMenu";
-import DrinksMenu from "./components/DrinksMenu";
-import { data, fullMenu, desertsdata, desertMenu, beveragesData } from "./data";
+import FoodMenu from "./components/Menu";
+import {
+  trendingFoods,
+  foodsMenu,
+  trendingDesserts,
+  dessertsMenu,
+  trendingDrinks,
+  drinksMenu,
+} from "./data";
 import { Route } from "react-router-dom";
 import { BsArrowBarRight } from "react-icons/bs";
 
@@ -25,28 +30,28 @@ export default function App() {
         <section className="header-section">
           <Header />
         </section>
-        <section className="recipes-section">
-          <Recipes
-            data={data}
+        <section className="trending-section">
+          <Trending
+            data={trendingFoods}
             title={"Trending Foods"}
-            foodMenu="Go To Full Menu"
-            foodlogo={<BsArrowBarRight className="arrow" />}
+            goToFoodsMenu="Go To Full Menu"
+            arrowForFoods={<BsArrowBarRight className="arrow" />}
           />
         </section>
-        <section className="recipes-section">
-          <Recipes
-            data={desertsdata}
+        <section className="trending-section">
+          <Trending
+            data={trendingDesserts}
             title={"Trending Desserts"}
-            desertMenu="Go To Full Menu"
-            desertlogo={<BsArrowBarRight className="arrow" />}
+            goToDessertsMenu="Go To Full Menu"
+            arrowForDesserts={<BsArrowBarRight className="arrow" />}
           />
         </section>
-        <section className="recipes-section">
-          <Recipes
-            data={beveragesData}
+        <section className="trending-section">
+          <Trending
+            data={trendingDrinks}
             title={"Trending Drinks"}
-            drinksTitle="Go To Full Menu"
-            drinkslogo={<BsArrowBarRight className="arrow" />}
+            goToDrinksMenu="Go To Full Menu"
+            arrowForDrinks={<BsArrowBarRight className="arrow" />}
           />
         </section>
         <section className="about-section">
@@ -69,17 +74,17 @@ export default function App() {
       </Route>
       <Route exact path="/menu">
         <section className="menu-section">
-          <FoodMenu fullMenu={fullMenu} />
+          <FoodMenu menu={foodsMenu} />
         </section>
       </Route>
       <Route exact path="/desert-menu">
         <section className="menu-section">
-          <DesertMenu desertMenu={desertMenu} />
+          <FoodMenu menu={dessertsMenu} />
         </section>
       </Route>
       <Route exact path="/drinks-menu">
         <section className="menu-section">
-          <DrinksMenu beveragesData={beveragesData} />
+          <FoodMenu menu={drinksMenu} />
         </section>
       </Route>
     </div>

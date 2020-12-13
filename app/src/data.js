@@ -4,7 +4,7 @@ import fries from "./images/fries.png";
 import veggies from "./images/veggies.png";
 import indianFood from "./images/indianfood.png";
 
-export const data = [
+export const trendingFoods = [
   {
     id: 1,
     image: pasta,
@@ -21,7 +21,7 @@ export const data = [
   },
   { id: 5, image: indianFood, name: "Indian Cuisine", price: 40 },
 ];
-export const desertsdata = [
+export const trendingDesserts = [
   {
     id: 6,
     image:
@@ -59,7 +59,7 @@ export const desertsdata = [
   },
 ];
 
-export const beveragesData = [
+export const trendingDrinks = [
   {
     id: 25,
     image:
@@ -69,8 +69,7 @@ export const beveragesData = [
   },
   {
     id: 26,
-    image:
-      "https://pngriver.com/wp-content/uploads/2018/04/Download-Mojito-PNG-Image.png",
+    image: "http://www.pngmart.com/files/4/Mojito-Transparent-Background.png",
     name: "Mojito",
     price: 20,
   },
@@ -92,32 +91,189 @@ export const beveragesData = [
     id: 29,
     image:
       "https://i.pinimg.com/originals/3e/b0/dd/3eb0dd985b188a0bdd248cd7d38d56a9.png",
-    name: "Dirty Cola",
+    name: "Dirty Lime Cola",
     price: 30,
   },
 ];
 
-export const chefData = [
+export const foodsMenu = [
   {
+    id: 1,
+    image: pasta,
+    name: "Red Pepper Pasta",
+    price: 40,
+  },
+  { id: 2, image: guac, name: "Guac & Chips", price: 10 },
+  { id: 3, image: fries, name: "Steak & Potatoes", price: 35 },
+  {
+    id: 4,
+    image: veggies,
+    name: "Veggies & Cheese",
+    price: 25,
+  },
+  { id: 5, image: indianFood, name: "Indian Cuisine", price: 40 },
+  {
+    id: 11,
     image:
-      "https://news.stonybrook.edu/wp-content/uploads/2019/01/kwame-top-chef.jpg",
-    name: "JOHN DOE",
-    title: "HEAD CHEF",
+      "http://www.pngmart.com/files/7/Fresh-Healthy-Food-Background-PNG.png",
+    name: "Salmon Salad",
+    price: 20,
   },
   {
-    image: "https://www.ecpi.edu/sites/default/files/CIV%20Sept%2026.png",
-    name: "JANE DOE",
-    title: "PASTA CHEF",
+    id: 12,
+    image: "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-Pic.png",
+    name: "Wings & Wild Rice",
+    price: 45,
   },
   {
+    id: 13,
+    image: "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-Photo.png",
+    name: "Turkey & Potatoes",
+    price: 30,
+  },
+  {
+    id: 14,
     image:
-      "https://www.hotelierindia.com/public/images/2017/12/20/Chef-Cheang-Chee-Leong-2048x1536px.jpg",
-    name: "JOHN DOE",
-    title: "FISH CHEF",
+      "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-File-Download-Free.png",
+    name: "Beef Soft Tacos",
+    price: 25,
+  },
+  {
+    id: 15,
+    image:
+      "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-Download-Image.png",
+    name: "Wild Tuna Broccoli",
+    price: 55,
+  },
+  {
+    id: 16,
+    image: "https://www.freeiconspng.com/uploads/lunch-burger-png-29.png",
+    name: "Burger & Fries",
+    price: 15,
+  },
+  {
+    id: 17,
+    image: "http://www.pngall.com/wp-content/uploads/2/Healthy-Meal.png",
+    name: "Loaf & Carrots",
+    price: 40,
+  },
+];
+export const dessertsMenu = [
+  {
+    id: 6,
+    image:
+      "http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Ice-Cream-PNG-Transparent-Image.png",
+    name: "Strawberry Cinnamon",
+    price: 40,
+  },
+  {
+    id: 7,
+    image:
+      "https://juliomiguel3.files.wordpress.com/2015/04/wpid-halo-halo-from-choking.png",
+    name: "Blackberry Swirl",
+    price: 30,
+  },
+  {
+    id: 8,
+    image:
+      "https://babcockhalldairystore.wisc.edu/wp-content/uploads/2018/02/Grasshopper-Ice-Cream-transparent-background-400x400.png",
+    name: "Pistachio Icecream",
+    price: 15,
+  },
+  {
+    id: 9,
+    image:
+      "https://userscontent2.emaze.com/images/59c9d840-72e6-4e17-b371-fbb208277117/81ff6386d56c1969cf49e3ab49fcc797.png",
+    name: "Strawberry Cake",
+    price: 20,
+  },
+  {
+    id: 10,
+    image:
+      "https://www.pngarts.com/files/1/Ice-Cream-Desserts-Transparent-Images.png",
+    name: "Three Flavors",
+    price: 12,
+  },
+  {
+    id: 22,
+    image:
+      "http://d3v94a7qdcaz3a.cloudfront.net/images/uploads/detail_Strawberry_Banana_Sunrise_Smoothie.png",
+    name: "Stawberry Milkshake",
+    price: 8,
+  },
+  {
+    id: 23,
+    image:
+      "https://66.media.tumblr.com/3033c226594f235b6c7f6eb239d82ca2/tumblr_nsc1pyxu0E1uyxczto1_500.png",
+    name: "Caramel Flan",
+    price: 15,
+  },
+  {
+    id: 24,
+    image:
+      "https://toppng.com/uploads/thumbnail/tres-leches-decoracion-pastel-3-leches-11563348076ko5bzrow4l.png",
+    name: "Tres Leches",
+    price: 30,
+  },
+];
+export const drinksMenu = [
+  {
+    id: 25,
+    image:
+      "http://www.pngpix.com/wp-content/uploads/2016/08/PNGPIX-COM-Cocktail-Glass-PNG-Transparent-Image.png",
+    name: "Peach Cocktail",
+    price: 40,
+  },
+  {
+    id: 26,
+    image: "http://www.pngmart.com/files/4/Mojito-Transparent-Background.png",
+    name: "Mojito",
+    price: 20,
+  },
+  {
+    id: 27,
+    image:
+      "https://img.pngio.com/bloody-mary-png-92-images-in-collection-page-3-bloody-mary-png-305_329.png",
+    name: "Bloody Mary",
+    price: 35,
+  },
+  {
+    id: 28,
+    image:
+      "https://i2.wp.com/freepngimages.com/wp-content/uploads/2016/03/summer-fruits-drink-transparent-background.png?fit=624%2C624",
+    name: "Strawberry Orange",
+    price: 15,
+  },
+  {
+    id: 29,
+    image:
+      "https://i.pinimg.com/originals/3e/b0/dd/3eb0dd985b188a0bdd248cd7d38d56a9.png",
+    name: "Dirty Lime Cola",
+    price: 30,
+  },
+  {
+    id: 30,
+    image:
+      "https://www.berentzenusa.com/wp/wp-content/uploads/2017/02/Recipe-Peach-Gin-Martini.png",
+    name: "Martini",
+    price: 12,
+  },
+  {
+    id: 31,
+    image: "https://www.pngimg.com/uploads/glass/wineglass_PNG2843.png",
+    name: "Blood & Sand",
+    price: 20,
+  },
+  {
+    id: 32,
+    image:
+      "https://media.woodfordreserve.com/wp-content/uploads/2015/06/19163256/Lemonade_Cocktail.png",
+    name: "Sidecar",
+    price: 10,
   },
 ];
 
-export const foodItem = [
+export const infoAboutItem = [
   {
     id: 1,
     image:
@@ -430,7 +586,7 @@ export const foodItem = [
     id: 29,
     image:
       "https://www.artofdrink.com/wp-content/uploads/2016/02/rum-coke-coca-cola-cuba-libre-735x490.jpg",
-    name: "Dirty Cola",
+    name: "Dirty Lime Cola",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
     price: 30,
@@ -439,125 +595,63 @@ export const foodItem = [
     about:
       "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
   },
+  {
+    id: 30,
+    image:
+      "http://www.creative-culinary.com/wp-content/uploads/lavender-lemonade-martini.jpg",
+    name: "Martini",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 30,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 31,
+    image:
+      "https://www.savour-magazine.co.uk/wp-content/uploads/2017/12/Blood-and-Sand-2.png",
+    name: "Blood & Sand",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 20,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
+  {
+    id: 32,
+    image:
+      "https://dmford.files.wordpress.com/2013/08/wpid7833-sidecar-8646.jpg?w=1204",
+    name: "Sidecar",
+    rating:
+      "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
+    price: 10,
+    type: "ALCOHOLIC",
+    availability: "IN STOCK",
+    about:
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+  },
 ];
 
-export const fullMenu = [
+export const chefData = [
   {
-    id: 1,
-    image: pasta,
-    name: "Red Pepper Pasta",
-    price: 40,
-  },
-  { id: 2, image: guac, name: "Guac & Chips", price: 10 },
-  { id: 3, image: fries, name: "Steak & Potatoes", price: 35 },
-  {
-    id: 4,
-    image: veggies,
-    name: "Veggies & Cheese",
-    price: 25,
-  },
-  { id: 5, image: indianFood, name: "Indian Cuisine", price: 40 },
-  {
-    id: 11,
     image:
-      "http://www.pngmart.com/files/7/Fresh-Healthy-Food-Background-PNG.png",
-    name: "Salmon Salad",
-    price: 20,
+      "https://news.stonybrook.edu/wp-content/uploads/2019/01/kwame-top-chef.jpg",
+    name: "JOHN DOE",
+    title: "HEAD CHEF",
   },
   {
-    id: 12,
-    image: "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-Pic.png",
-    name: "Wings & Wild Rice",
-    price: 45,
+    image: "https://www.ecpi.edu/sites/default/files/CIV%20Sept%2026.png",
+    name: "JANE DOE",
+    title: "PASTA CHEF",
   },
   {
-    id: 13,
-    image: "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-Photo.png",
-    name: "Turkey & Potatoes",
-    price: 30,
-  },
-  {
-    id: 14,
     image:
-      "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-File-Download-Free.png",
-    name: "Beef Soft Tacos",
-    price: 25,
-  },
-  {
-    id: 15,
-    image:
-      "http://www.pngall.com/wp-content/uploads/2/Meal-PNG-Download-Image.png",
-    name: "Wild Tuna Broccoli",
-    price: 55,
-  },
-  {
-    id: 16,
-    image: "https://www.freeiconspng.com/uploads/lunch-burger-png-29.png",
-    name: "Burger & Fries",
-    price: 15,
-  },
-  {
-    id: 17,
-    image: "http://www.pngall.com/wp-content/uploads/2/Healthy-Meal.png",
-    name: "Loaf & Carrots",
-    price: 40,
-  },
-];
-export const desertMenu = [
-  {
-    id: 6,
-    image:
-      "http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Ice-Cream-PNG-Transparent-Image.png",
-    name: "Strawberry Cinnamon",
-    price: 40,
-  },
-  {
-    id: 7,
-    image:
-      "https://juliomiguel3.files.wordpress.com/2015/04/wpid-halo-halo-from-choking.png",
-    name: "Blackberry Swirl",
-    price: 30,
-  },
-  {
-    id: 8,
-    image:
-      "https://babcockhalldairystore.wisc.edu/wp-content/uploads/2018/02/Grasshopper-Ice-Cream-transparent-background-400x400.png",
-    name: "Pistachio Icecream",
-    price: 15,
-  },
-  {
-    id: 9,
-    image:
-      "https://userscontent2.emaze.com/images/59c9d840-72e6-4e17-b371-fbb208277117/81ff6386d56c1969cf49e3ab49fcc797.png",
-    name: "Strawberry Cake",
-    price: 20,
-  },
-  {
-    id: 10,
-    image:
-      "https://www.pngarts.com/files/1/Ice-Cream-Desserts-Transparent-Images.png",
-    name: "Three Flavors",
-    price: 12,
-  },
-  {
-    id: 22,
-    image:
-      "http://d3v94a7qdcaz3a.cloudfront.net/images/uploads/detail_Strawberry_Banana_Sunrise_Smoothie.png",
-    name: "Stawberry Milkshake",
-    price: 8,
-  },
-  {
-    id: 23,
-    image:
-      "https://66.media.tumblr.com/3033c226594f235b6c7f6eb239d82ca2/tumblr_nsc1pyxu0E1uyxczto1_500.png",
-    name: "Caramel Flan",
-    price: 15,
-  },
-  {
-    id: 24,
-    image:
-      "https://toppng.com/uploads/thumbnail/tres-leches-decoracion-pastel-3-leches-11563348076ko5bzrow4l.png",
-    name: "Tres Leches",
-    price: 30,
+      "https://www.hotelierindia.com/public/images/2017/12/20/Chef-Cheang-Chee-Leong-2048x1536px.jpg",
+    name: "JOHN DOE",
+    title: "FISH CHEF",
   },
 ];
