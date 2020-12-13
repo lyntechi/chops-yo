@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsArrowBarRight } from "react-icons/bs";
 
 export default function Recipes({
   data,
