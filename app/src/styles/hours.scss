@@ -1,0 +1,50 @@
+.hours-section {
+  background-image: url("https://images.unsplash.com/photo-1576488489579-6967c02c56fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 90px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  .hours-container {
+    width: 540px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #202121;
+    @include responsive(mobile) {
+      width: 100%;
+    }
+    h1 {
+      color: rgb(218, 211, 211);
+      font-size: 44px;
+      text-align: center;
+      width: 100%;
+      margin: 0rem auto;
+      padding: 10px;
+      font-family: "Fredericka the Great", cursive;
+    }
+
+    .hours-flex {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: space-around;
+      h3 {
+        color: rgb(247, 194, 96);
+        text-align: center;
+        font-size: 25px;
+        line-height: 70px;
+        font-family: sans-serif;
+        width: 100%;
+      }
+      p {
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        color: white;
+      }
+    }
+  }
+}

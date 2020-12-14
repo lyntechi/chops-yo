@@ -38,12 +38,12 @@ const Cards = (props) => {
                   className="social-media"
                   alt=""
                 />
-                 <img
+                <img
                   src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-256.png"
                   className="social-media"
                   alt=""
                 />
-                 <img
+                <img
                   src="https://cdn2.iconfinder.com/data/icons/2018-social-media-app-logos/1000/2018_social_media_popular_app_logo_youtube-256.png"
                   className="social-media"
                   alt=""

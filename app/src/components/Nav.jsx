@@ -12,10 +12,10 @@ export default function Nav() {
         <div className="img-logo">
           <img src={bowl} alt="" className="bowlImg" />
           <Link to="/" style={{ textDecoration: "none" }}>
-            <h1 className="nav-h1">CHOPS-YO</h1>
+            <h1>CHOPS-YO</h1>
           </Link>
         </div>
-        <p>
+       <div className="contact-details"><p>
           Contact Us: <FiPhoneCall /> 484.627.9598
         </p>
         <p>lyndasantiag@gmail.com</p>
@@ -23,7 +23,7 @@ export default function Nav() {
         <button className="login-btn">Login</button>
         <button className="register-btn">Register</button>
         <FaSearch className="search-icon" />
-        <TemporaryDrawer />
+        <TemporaryDrawer /></div> 
       </div>
     </nav>
   );

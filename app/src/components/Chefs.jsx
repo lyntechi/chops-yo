@@ -7,8 +7,8 @@ export default function Chefs() {
   return (
     <div className="chefs-container">
       <img src={chefhat} alt="" className="chef-hat" />
-      <h1 className="chefs-h1">Our Chefs</h1>
-      <p className="chefs-p">
+      <h1>Our Chefs</h1>
+      <p>
         <AiOutlineMinus className="dash" />
         The Masters Behind Our Best Foods <AiOutlineMinus className="dash" />
       </p>

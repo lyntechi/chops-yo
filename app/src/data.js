@@ -285,7 +285,7 @@ export const infoAboutItem = [
     type: "LUNCH",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et turpizzle. Vestibulum izzle shit. That's the shizzle eleifend rhoncizzle nisi. In rizzle habitasse mammasay mammasa mamma oo sa dictumst. Mammasay mammasa.",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle."
   },
   {
     id: 2,
@@ -309,7 +309,7 @@ export const infoAboutItem = [
     type: "DINNER",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et turpizzle. Vestibulum izzle shit. That's the shizzle eleifend rhoncizzle nisi. In rizzle habitasse mammasay mammasa mamma oo sa dictumst. Mammasay mammasa mamma oo sa dapibizzle. Curabitur tellizzle , pretizzle fo, bling bling ac, eleifend vitae, nunc. Stuff suscipizzle. Gangster semper brizzle sed bizzle.",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor.",
   },
   {
     id: 4,
@@ -335,7 +335,7 @@ export const infoAboutItem = [
     type: "DINNER",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et turpizzle. Vestibulum izzle shit. That's the shizzle eleifend rhoncizzle nisi. In rizzle habitasse mammasay mammasa mamma oo sa dictumst. Mammasay mammasa mamma oo sa dapibizzle.",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
   },
   {
     id: 6,
@@ -348,7 +348,7 @@ export const infoAboutItem = [
     type: "DESSERT",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et turpizzle. Vestibulum izzle shit. That's the shizzle eleifend rhoncizzle nisi. In rizzle habitasse mammasay mammasa mamma oo sa dictumst. Mammasay mammasa mamma oo sa dapibizzle. Curabitur tellizzle , pretizzle fo, bling bling ac, eleifend vitae, nunc. Stuff suscipizzle. Gangster semper brizzle sed bizzle.",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle.",
   },
   {
     id: 7,
@@ -361,7 +361,7 @@ export const infoAboutItem = [
     type: "DESSERT",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et turpizzle. Vestibulum izzle shit. That's the shizzle eleifend rhoncizzle nisi. In rizzle habitasse mammasay mammasa mamma oo sa dictumst.",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor ",
   },
   {
     id: 8,
@@ -374,7 +374,7 @@ export const infoAboutItem = [
     type: "DESSERT",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et turpizzle. Vestibulum izzle shit. That's the shizzle eleifend rhoncizzle nisi. In rizzle habitasse mammasay mammasa mamma oo sa dictumst. Mammasay mammasa mamma oo sa dapibizzle.",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot.",
   },
   {
     id: 9,
@@ -386,7 +386,7 @@ export const infoAboutItem = [
     type: "DESSERT",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle mammasay mammasa mamma oo sa. Maurizzle pellentesque nibh et",
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle.",
   },
   {
     id: 10,

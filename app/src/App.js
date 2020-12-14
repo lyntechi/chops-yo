@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./styles/main.scss";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Trending from "./components/Trending";
@@ -8,7 +8,7 @@ import Hours from "./components/Hours";
 import Chefs from "./components/Chefs";
 import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
-import FoodMenu from "./components/Menu";
+import Menu from "./components/Menu";
 import {
   trendingFoods,
   foodsMenu,
@@ -74,17 +74,17 @@ export default function App() {
       </Route>
       <Route exact path="/menu">
         <section className="menu-section">
-          <FoodMenu menu={foodsMenu} />
+          <Menu menu={foodsMenu} />
         </section>
       </Route>
       <Route exact path="/desert-menu">
         <section className="menu-section">
-          <FoodMenu menu={dessertsMenu} />
+          <Menu menu={dessertsMenu} />
         </section>
       </Route>
       <Route exact path="/drinks-menu">
         <section className="menu-section">
-          <FoodMenu menu={drinksMenu} />
+          <Menu menu={drinksMenu} />
         </section>
       </Route>
     </div>

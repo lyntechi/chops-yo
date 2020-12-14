@@ -1,0 +1,147 @@
+@import "./mixins.scss";
+
+.nav-section {
+  width: 100%;
+  background: #212020;
+  padding: 4px 0px;
+  position: fixed;
+  z-index: 1;
+
+  nav {
+    width: 1150px;
+    height: 90px;
+    background: #212020;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include responsive(tablet) {
+      width: 600px;
+      padding: 0px 10px;
+    }
+    @include responsive(mobile) {
+      width: 100%;
+    }
+
+    .listItems {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      @include responsive(mobile) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-details {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .search-icon {
+          color: white;
+          margin-left: 20px;
+          font-size: 20px;
+          cursor: pointer;
+          outline: none;
+        }
+        .menu-icon {
+          color: white;
+          font-size: 28px;
+          outline: none;
+        }
+        .menu-item:hover {
+          background: orange;
+        }
+      }
+      .img-logo {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+          width: 30px;
+          height: 30px;
+          @include responsive(tablet) {
+            width: 25px;
+          }
+          @include responsive(mobile) {
+            width: 18px;
+          }
+        }
+        h1 {
+          color: white;
+          font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+          letter-spacing: 7px;
+          font-size: 22px;
+          margin: 0px 8px;
+          font-weight: 100;
+          width: 100%;
+          @include responsive(tablet) {
+            font-size: 20px;
+          }
+          @include responsive(mobile) {
+            font-size: 18px;
+          }
+        }
+      }
+      p {
+        color: white;
+        font-size: 16px;
+        margin-right: 20px;
+        @include responsive(tablet) {
+          display: none;
+        }
+      }
+      .login-btn {
+        background: orange;
+        width: 80px;
+        margin-left: 20px;
+        border: none;
+        padding: 10px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        @include responsive(mobile) {
+          padding: 2px 0px;
+        }
+      }
+      .register-btn {
+        margin-left: 4px;
+        width: 80px;
+        border: 1px solid white;
+        background: none;
+        color: white;
+        font-size: 16px;
+        padding: 10px 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        outline: none;
+        @include responsive(mobile) {
+          padding: 2px 0px;
+        }
+
+        &:hover {
+          background: orange;
+          color: black;
+          transition: 0.5s;
+          border: none;
+          padding: 10px 10px;
+          width: 80px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+#root
+  > div
+  > section.nav-section
+  > nav
+  > div
+  > div.contact-details
+  > div
+  > button {
+  outline: none;
+}

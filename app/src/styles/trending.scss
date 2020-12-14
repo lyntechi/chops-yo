@@ -1,0 +1,110 @@
+@import "./mixins";
+
+.trending-section {
+  background: #212020;
+  background: #212020;
+  border-bottom: 2px solid rgba(243, 231, 231, 0.144);
+
+  .trending-container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    @include responsive(tablet) {
+      width: 600px;
+    }
+    @include responsive(mobile) {
+      width: 100%;
+    }
+    h1 {
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: white;
+      @include responsive(tablet) {
+        padding: 0px 10px;
+        text-align: center;
+      }
+    }
+    .item-cards {
+      display: flex;
+      margin-top: 43px;
+      @include responsive(tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        justify-content: space-between;
+      }
+      @include responsive(mobile) {
+        display: flex;
+        flex-direction: column;
+      }
+      .item-cards-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 230px;
+          height: 230px;
+          cursor: pointer;
+          -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+          -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          @-webkit-keyframes fadeIn {
+            50% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          @keyframes fadeIn {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
+          &:hover {
+            -moz-transform: scale(1.1) rotate(0deg);
+            -webkit-transform: scale(1.1) rotate(0deg);
+            -o-transform: scale(1.1) rotate(0deg);
+            -ms-transform: scale(1.1) rotate(0deg);
+            transform: scale(1.1) rotate(0deg);
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -o-transition: 0.5s;
+            -ms-transition: 0.5s;
+            transition: 0.5s;
+          }
+        }
+        p {
+          font-size: 23px;
+          font-family: sans-serif;
+          margin-top: 20px;
+          color: white;
+          span {
+            color: orange;
+          }
+        }
+      }
+    }
+    p {
+      margin-top: 30px;
+      cursor: pointer;
+      font-size: 18px;
+      color: white;
+      @include responsive(tablet) {
+        flex-wrap: wrap;
+        padding: 0px 10px;
+      }
+      .arrow {
+        font-size: 30px;
+      }
+    }
+  }
+}

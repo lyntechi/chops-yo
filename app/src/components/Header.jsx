@@ -6,17 +6,17 @@ export default function Header() {
     <div className="header-container">
       <div className="grid">
         <div className="left-col">
-          <h1 className="header-h1">
+          <h1>
             CHOPS-YO RESTAURANT WILL NOW DELIVER NEAR YOUR PLACE
           </h1>
-          <p className="header-p">
+          <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
           </p>
-          <button className="order-btn">Order Now</button>
+          <button>Order Now</button>
         </div>
         <div className="right-col">
-          <img src={steak4} alt="" className="wings-img" />
+          <img src={steak4} alt="" />
         </div>
       </div>
     </div>

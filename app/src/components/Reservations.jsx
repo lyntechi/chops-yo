@@ -7,7 +7,7 @@ export default function Reservations() {
   return (
     <div className="reservations-container">
       <GiCrenelCrown className="crown-icon" />
-      <h1 className="reservation-h1">RESERVATION</h1>
+      <h1>RESERVATION</h1>
       <p className="reserv-p">
         <AiOutlineMinus className="dash-r" />
         Please Book Your Table <AiOutlineMinus className="dash-r" />
@@ -48,7 +48,7 @@ export default function Reservations() {
         </div>
         <textarea placeholder="ANYTHING ELSE WE SHOULD KNOW?" />
       </form>{" "}
-      <button className="form-btn">FIND A TABLE</button>
+      <button>FIND A TABLE</button>
     </div>
   );
 }

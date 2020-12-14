@@ -13,17 +13,17 @@ export default function Trending({
 }) {
   return (
     <div className="trending-container">
-      <h1 className="recipes-h1">{title}</h1>
-      <div className="recipes">
+      <h1>{title}</h1>
+      <div className="item-cards">
         {data.map((item) => {
           return (
-            <div className="recipe-titles">
+            <div className="item-cards-info">
               <Link to={`/item/${item.id}`}>
                 {" "}
-                <img src={item.image} alt="" className="recipe-img" />
+                <img src={item.image} alt="" />
               </Link>
-              <p className="recipes-p">{item.name}</p>
-              <p className="recipes-p">
+              <p>{item.name}</p>
+              <p>
                 <span className="dollar-sign">$</span>
                 {item.price}
               </p>
@@ -33,21 +33,21 @@ export default function Trending({
       </div>
       <Link to="/menu" style={{ textDecoration: "none" }}>
         {" "}
-        <p className="see-more">
+        <p>
           {goToFoodsMenu}
           {arrowForFoods}
         </p>
       </Link>
       <Link to="/desert-menu" style={{ textDecoration: "none" }}>
         {" "}
-        <p className="see-more">
+        <p>
           {goToDessertsMenu}
           {arrowForDesserts}
         </p>
       </Link>
       <Link to="/drinks-menu" style={{ textDecoration: "none" }}>
         {" "}
-        <p className="see-more">
+        <p>
           {goToDrinksMenu}
           {arrowForDrinks}
         </p>
