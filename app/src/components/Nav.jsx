@@ -9,12 +9,12 @@ export default function Nav() {
   return (
     <nav>
       <div className="listItems">
-        {/* <div className="img-logo">
+        <div className="img-logo">
           <img src={bowl} alt="" className="bowlImg" />
           <Link to="/" style={{ textDecoration: "none" }}>
             <h1>CHOPS-YO</h1>
           </Link>
-        </div> */}
+        </div>
         <div className="contact-details">
           <p>
             Contact Us: <FiPhoneCall /> 484.627.9598
