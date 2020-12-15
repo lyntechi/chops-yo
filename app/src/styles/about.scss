@@ -25,6 +25,8 @@
       position: absolute;
       left: -230px;
       top: 120px;
+      transform: translateZ(0);
+
       @include responsive(tablet) {
         width: 150px;
         position: absolute;

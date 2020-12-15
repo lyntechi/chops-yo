@@ -56,6 +56,9 @@
           animation-duration: 2s;
           -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
+          transform: translateZ(0);
+          transition: transform 0.5s ease;
+
           @-webkit-keyframes fadeIn {
             50% {
               opacity: 0;
@@ -73,16 +76,7 @@
             }
           }
           &:hover {
-            -moz-transform: scale(1.1) rotate(0deg);
-            -webkit-transform: scale(1.1) rotate(0deg);
-            -o-transform: scale(1.1) rotate(0deg);
-            -ms-transform: scale(1.1) rotate(0deg);
-            transform: scale(1.1) rotate(0deg);
-            -webkit-transition: 0.5s;
-            -moz-transition: 0.5s;
-            -o-transition: 0.5s;
-            -ms-transition: 0.5s;
-            transition: 0.5s;
+            transform: scale(1.1) translateZ(0);
           }
         }
         p {

@@ -17,7 +17,7 @@ export default function Header() {
           <button onClick={alertMsg}>Order Now</button>
         </div>
         <div className="right-col">
-          <img src={steak4} alt="" />
+          <img src='http://pluspng.com/img-png/barbecue-food-png-bbq-transparent-background-700.png' alt="" />
         </div>
       </div>
     </div>
