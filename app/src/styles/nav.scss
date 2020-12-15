@@ -37,14 +37,13 @@
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
-        
       }
       .contact-details {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         @include responsive(mobile) {
-       margin-top: 5px;
+          margin-top: 5px;
         }
         .search-icon {
           color: white;
@@ -153,5 +152,20 @@
         }
       }
     }
+  }
+}
+.link {
+  color: black;
+  width: 100%;
+}
+body
+  > div.MuiDrawer-root.MuiDrawer-modal
+  > div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiPaper-elevation16
+  > div
+  > ul {
+  :hover {
+    background: orange;
+    text-decoration: none;
+    color: white;
   }
 }

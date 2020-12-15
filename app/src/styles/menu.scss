@@ -1,14 +1,11 @@
-@import './mixins.scss';
+@import "./mixins.scss";
 
 .menu-section {
   padding-top: 200px;
   background: ghostwhite;
   @include responsive(mobile) {
-  
     padding-top: 120px;
-    
- 
-   }
+  }
   .menu-container {
     width: 1150px;
     margin: 0 auto;
@@ -19,12 +16,11 @@
     @include responsive(tablet) {
       width: 600px;
       padding: 0px 20px;
-     }
-     @include responsive(mobile) {
+    }
+    @include responsive(mobile) {
       width: 100%;
       padding: 0px 50px;
-   
-     }
+    }
     .menu-titles {
       display: flex;
       flex-direction: column;

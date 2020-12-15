@@ -51,35 +51,35 @@ export default function TemporaryDrawer() {
       <List>
         {["Home"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <Link to="/">
+            <Link to="/" className="link">
               <ListItemText primary={text} />
             </Link>
           </ListItem>
         ))}
         {["Foods"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <Link to="/menu">
+            <Link to="/menu" className="link">
               <ListItemText primary={text} />
             </Link>
           </ListItem>
         ))}
         {["Desserts"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <Link to="/desert-menu">
+            <Link to="/desert-menu" className="link">
               <ListItemText primary={text} />
             </Link>
           </ListItem>
         ))}
         {["Drinks"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <Link to="/drinks-menu">
+            <Link to="/drinks-menu" className="link">
               <ListItemText primary={text} />
             </Link>
           </ListItem>
         ))}
         {["About"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <a href="#about">
+            <a href="#about" className="link">
               {" "}
               <ListItemText primary={text} />{" "}
             </a>
@@ -87,7 +87,7 @@ export default function TemporaryDrawer() {
         ))}
         {["Hours"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <a href="#hours">
+            <a href="#hours" className="link">
               {" "}
               <ListItemText primary={text} />{" "}
             </a>
@@ -95,7 +95,7 @@ export default function TemporaryDrawer() {
         ))}
         {["Chefs"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <a href="#chefs">
+            <a href="#chefs" className="link">
               {" "}
               <ListItemText primary={text} />{" "}
             </a>
@@ -103,7 +103,7 @@ export default function TemporaryDrawer() {
         ))}
         {["Resv"].map((text, index) => (
           <ListItem button key={text} className="menu-item">
-            <a href="#resv">
+            <a href="#resv" className="link">
               {" "}
               <ListItemText primary={text} />{" "}
             </a>

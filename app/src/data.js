@@ -285,7 +285,7 @@ export const infoAboutItem = [
     type: "LUNCH",
     availability: "IN STOCK",
     about:
-      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle."
+      "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle.",
   },
   {
     id: 2,

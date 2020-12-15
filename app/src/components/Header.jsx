@@ -6,9 +6,7 @@ export default function Header() {
     <div className="header-container">
       <div className="grid">
         <div className="left-col">
-          <h1>
-            CHOPS-YO RESTAURANT WILL NOW DELIVER NEAR YOUR PLACE
-          </h1>
+          <h1>CHOPS-YO RESTAURANT WILL NOW DELIVER NEAR YOUR PLACE</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

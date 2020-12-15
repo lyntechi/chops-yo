@@ -15,7 +15,7 @@ export default function Menu({ menu }) {
               {" "}
               <img src={item.image} alt="" className="recipe-img" />
             </Link>
-            <p >{item.name}</p>
+            <p>{item.name}</p>
             <p>
               <span className="dollar-sign">$</span>
               {item.price}

@@ -25,7 +25,7 @@
       padding: 10px;
       font-family: "Fredericka the Great", cursive;
       @include responsive(mobile) {
-       font-size: 20px;
+        font-size: 20px;
       }
     }
 
@@ -43,7 +43,7 @@
         width: 100%;
         @include responsive(mobile) {
           font-size: 18px;
-         }
+        }
       }
       p {
         text-align: center;

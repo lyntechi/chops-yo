@@ -38,14 +38,14 @@ export default function App() {
             arrowForFoods={<BsArrowBarRight className="arrow" />}
           />
         </section>
-        <section className="trending-section"  id="desserts">
+        <section className="trending-section" id="desserts">
           <Trending
             data={trendingDesserts}
             title={"Trending Desserts"}
             goToDessertsMenu="Go To Full Menu"
             arrowForDesserts={<BsArrowBarRight className="arrow" />}
           />
-        </section> 
+        </section>
         <section className="trending-section" id="drinks">
           <Trending
             data={trendingDrinks}

@@ -5,7 +5,7 @@
   padding-top: 150px;
   background: ghostwhite;
   @include responsive(mobile) {
-   padding-top: 75px;
+    padding-top: 75px;
   }
   .individualItemContainer {
     width: 1150px;
@@ -47,7 +47,6 @@
             width: 100%;
             height: 100%;
           }
-        
         }
         @-webkit-keyframes slideInLeft {
           0% {
@@ -118,7 +117,7 @@
             }
             @include responsive(mobile) {
               margin-top: 10px;
-              }
+            }
           }
         }
         img {
@@ -189,7 +188,7 @@
       margin-top: 6rem;
       @include responsive(mobile) {
         margin-top: 2.5rem;
-        }
+      }
       p {
         background: orange;
         color: white;
@@ -221,9 +220,9 @@
           letter-spacing: -1px;
           @include responsive(mobile) {
             font-size: 1.2rem;
-           }
+          }
         }
-       
+
         .add-review {
           margin: 20px 0rem;
           font-size: 1.5rem;
@@ -231,7 +230,7 @@
           letter-spacing: -1px;
           @include responsive(mobile) {
             font-size: 1rem;
-           }
+          }
         }
         form {
           display: flex;
@@ -269,6 +268,7 @@
             border: none;
             border-radius: 50px;
             text-transform: uppercase;
+            outline: none;
             &:hover {
               background: orange;
               color: black;

@@ -10,8 +10,8 @@ export default function Review() {
         <div className="review-input">
           {" "}
           <input placeholder="NAME *" />
-          <input  placeholder="EMAIL *" />
-          <input  placeholder="PHOTO" />
+          <input placeholder="EMAIL *" />
+          <input placeholder="PHOTO" />
         </div>
         <textarea placeholder="COMMENT" />
         <button>Submit</button>

@@ -15,15 +15,17 @@ export default function Nav() {
             <h1>CHOPS-YO</h1>
           </Link>
         </div>
-       <div className="contact-details"><p>
-          Contact Us: <FiPhoneCall /> 484.627.9598
-        </p>
-        <p>lyndasantiag@gmail.com</p>
-        <p>Easton PA, USA</p>
-        <button className="login-btn">Login</button>
-        <button className="register-btn">Register</button>
-        <FaSearch className="search-icon" />
-        <TemporaryDrawer /></div> 
+        <div className="contact-details">
+          <p>
+            Contact Us: <FiPhoneCall /> 484.627.9598
+          </p>
+          <p>lyndasantiag@gmail.com</p>
+          <p>Easton PA, USA</p>
+          <button className="login-btn">Login</button>
+          <button className="register-btn">Register</button>
+          <FaSearch className="search-icon" />
+          <TemporaryDrawer />
+        </div>
       </div>
     </nav>
   );

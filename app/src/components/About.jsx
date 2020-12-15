@@ -1,12 +1,12 @@
 import React from "react";
 import dishicon from "../images/dishicon.png";
 import { BsArrowBarRight } from "react-icons/bs";
-import vegan from '../images/vegan.png'
+import vegan from "../images/vegan.png";
 
 export default function About() {
   return (
     <div className="about-container">
-      <img src={vegan} className='vegan-dish' alt =""/>
+      <img src={vegan} className="vegan-dish" alt="" />
       <img src={dishicon} alt="" className="dish-icon" />
       <h1 className="about-h1">About Our Food & Restaurant</h1>
       <p className="about-p">
