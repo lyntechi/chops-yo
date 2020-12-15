@@ -14,7 +14,7 @@
     position: relative;
     background: #202121;
     @include responsive(mobile) {
-      width: 100%;
+      width: 95%;
     }
     h1 {
       color: rgb(218, 211, 211);
@@ -24,6 +24,9 @@
       margin: 0rem auto;
       padding: 10px;
       font-family: "Fredericka the Great", cursive;
+      @include responsive(mobile) {
+       font-size: 20px;
+      }
     }
 
     .hours-flex {
@@ -38,6 +41,9 @@
         line-height: 70px;
         font-family: sans-serif;
         width: 100%;
+        @include responsive(mobile) {
+          font-size: 18px;
+         }
       }
       p {
         text-align: center;

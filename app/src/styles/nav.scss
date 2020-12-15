@@ -3,7 +3,6 @@
 .nav-section {
   width: 100%;
   background: #212020;
-  padding: 4px 0px;
   position: fixed;
   z-index: 1;
 
@@ -16,12 +15,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px 0px;
+
     @include responsive(tablet) {
       width: 600px;
       padding: 0px 10px;
     }
     @include responsive(mobile) {
       width: 100%;
+      padding: 35px 5px;
+      height: 0px;
     }
 
     .listItems {
@@ -33,25 +36,40 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 10px;
+        
       }
       .contact-details {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        @include responsive(mobile) {
+       margin-top: 5px;
+        }
         .search-icon {
           color: white;
           margin-left: 20px;
           font-size: 20px;
           cursor: pointer;
           outline: none;
+          @include responsive(mobile) {
+            font-size: 14px;
+          }
         }
         .menu-icon {
           color: white;
           font-size: 28px;
           outline: none;
+          @include responsive(mobile) {
+            font-size: 16px;
+          }
         }
         .menu-item:hover {
           background: orange;
+        }
+        div > button {
+          outline: none;
+          width: 20px;
         }
       }
       .img-logo {
@@ -66,6 +84,7 @@
           }
           @include responsive(mobile) {
             width: 18px;
+            height: 20px;
           }
         }
         h1 {
@@ -102,7 +121,8 @@
         cursor: pointer;
         outline: none;
         @include responsive(mobile) {
-          padding: 2px 0px;
+          padding: 2px 5px;
+          width: 68px;
         }
       }
       .register-btn {
@@ -117,7 +137,8 @@
         transition: 0.5s;
         outline: none;
         @include responsive(mobile) {
-          padding: 2px 0px;
+          padding: 2px 5px;
+          width: 68px;
         }
 
         &:hover {
@@ -133,15 +154,4 @@
       }
     }
   }
-}
-
-#root
-  > div
-  > section.nav-section
-  > nav
-  > div
-  > div.contact-details
-  > div
-  > button {
-  outline: none;
 }

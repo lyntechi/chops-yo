@@ -28,7 +28,7 @@ export default function Reservations() {
           <input type="text" placeholder="PHONE NUMBER #" />
           <br />
         </div>{" "}
-        <div>
+        <div >
           <input type="email" placeholder="EMAIL" />
           <br />
           <br />
@@ -45,8 +45,12 @@ export default function Reservations() {
           <br />
           <br />
           <DatePickers /> <br />
+         
+
         </div>
+        
         <textarea placeholder="ANYTHING ELSE WE SHOULD KNOW?" />
+
       </form>{" "}
       <button>FIND A TABLE</button>
     </div>

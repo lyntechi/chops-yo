@@ -12,9 +12,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100vh;
   @include responsive(tablet) {
-padding: 50px 0px;
-  
+    padding: 50px 0px;
+    height: 100%;
   }
 
   .reservations-container {
@@ -39,6 +40,9 @@ padding: 50px 0px;
       color: white;
       font-size: 48px;
       font-family: "Fjalla One", sans-serif;
+      @include responsive(tablet) {
+        font-size: 28px;
+      }
     }
     .reserv-p {
       color: white;
@@ -46,6 +50,13 @@ padding: 50px 0px;
       font-size: 1.6rem;
       font-style: italic;
       margin-bottom: 5rem;
+      @include responsive(tablet) {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      @include responsive(mobile) {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -57,12 +68,12 @@ form {
   height: 100%;
   font-size: 13px;
   @include responsive(tablet) {
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 30px;
+    grid-template-columns: 1fr;
     display: flex;
     flex-direction: column;
     align-items: center;
- 
+    justify-content: center;
+    padding: 25px 0px;
   }
 }
 input {
@@ -76,7 +87,7 @@ input {
     width: 320px;
   }
   @include responsive(mobile) {
-    width: 270px;
+    width: 250px;
   }
 }
 textarea {
@@ -88,11 +99,11 @@ textarea {
   height: 232px;
   width: 100%;
   @include responsive(tablet) {
-    margin-bottom: 20px;
-  
+    margin-bottom: 40px;
+    width: 320px;
   }
   @include responsive(mobile) {
-    width: 270px;
+    width: 250px;
   }
 }
 
@@ -100,13 +111,13 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: space-between;
-  height: 100%;
+  // height: 100%;
 }
 .second-row {
   display: flex;
   flex-direction: column;
   align-items: space-between;
-  height: 100%;
+  // height: 100%;
 }
 ::placeholder {
   color: white;
@@ -141,7 +152,7 @@ option {
 }
 
 button {
-  width: 170px;
+  width: 250px;
   border: 1px solid white;
   background: none;
   color: white;
@@ -149,9 +160,11 @@ button {
   padding: 10px 10px;
   cursor: pointer;
   transition: 0.5s;
-  margin-top: 0rem;
+  align-self: center;
+  margin: 0rem auto;
+  outline: none;
   @include responsive(tablet) {
-  margin-top: 20px;
+    margin-top: 50px;
   }
 }
 button:hover {

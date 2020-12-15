@@ -8,14 +8,15 @@ import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
+
 const useStyles = makeStyles({
   list: {
     width: 250,
-  
   },
   fullList: {
-    width: "auto"
-  }
+    width: "auto",
+  },
 });
 
 export default function TemporaryDrawer() {
@@ -24,7 +25,7 @@ export default function TemporaryDrawer() {
     top: false,
     left: false,
     bottom: false,
-    right: false
+    right: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -41,20 +42,73 @@ export default function TemporaryDrawer() {
   const list = (anchor) => (
     <div
       className={clsx(classes.list, {
-        [classes.fullList]: anchor === "top" || anchor === "bottom"
+        [classes.fullList]: anchor === "top" || anchor === "bottom",
       })}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Home", "About", "Recipes", "Blog", "Contact Us"].map(
-          (text, index) => (
-            <ListItem button key={text} className="menu-item">
+        {["Home"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <Link to="/">
               <ListItemText primary={text} />
-            </ListItem>
-          )
-        )}
+            </Link>
+          </ListItem>
+        ))}
+        {["Foods"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <Link to="/menu">
+              <ListItemText primary={text} />
+            </Link>
+          </ListItem>
+        ))}
+        {["Desserts"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <Link to="/desert-menu">
+              <ListItemText primary={text} />
+            </Link>
+          </ListItem>
+        ))}
+        {["Drinks"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <Link to="/drinks-menu">
+              <ListItemText primary={text} />
+            </Link>
+          </ListItem>
+        ))}
+        {["About"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <a href="#about">
+              {" "}
+              <ListItemText primary={text} />{" "}
+            </a>
+          </ListItem>
+        ))}
+        {["Hours"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <a href="#hours">
+              {" "}
+              <ListItemText primary={text} />{" "}
+            </a>
+          </ListItem>
+        ))}
+        {["Chefs"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <a href="#chefs">
+              {" "}
+              <ListItemText primary={text} />{" "}
+            </a>
+          </ListItem>
+        ))}
+        {["Resv"].map((text, index) => (
+          <ListItem button key={text} className="menu-item">
+            <a href="#resv">
+              {" "}
+              <ListItemText primary={text} />{" "}
+            </a>
+          </ListItem>
+        ))}
       </List>
       <Divider />
     </div>
