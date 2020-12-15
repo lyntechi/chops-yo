@@ -8,7 +8,7 @@ import bowl from "../images/bowl.png";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaSearch } from "react-icons/fa";
 import TemporaryDrawer from "./TemporaryDrawer";
-import TransitionsModal from './TransitionsModal'
+import TransitionsModal from "./TransitionsModal";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,7 +34,11 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             <div className="listItems">
               <div className="img-logo">
-                <img src={bowl} alt="" className="bowlImg" />
+                <img
+                  src="https://cdn0.iconfinder.com/data/icons/fastfood-30/64/noodle-bowl-chopsticks-food-asian-ramen-spaghetti-256.png"
+                  alt=""
+                  className="bowlImg"
+                />
                 <Link to="/" style={{ textDecoration: "none" }}>
                   <h1>CHOPS-YO</h1>
                 </Link>
@@ -46,7 +50,7 @@ export default function ButtonAppBar() {
                 <p>lyndasantiag@gmail.com</p>
                 <p>Easton PA, USA</p>
                 <button className="login-btn">Login</button>
-                 <TransitionsModal/>
+                <TransitionsModal />
                 <FaSearch className="search-icon" />
                 <TemporaryDrawer />
               </div>

@@ -76,22 +76,25 @@
         align-items: flex-end;
 
         img {
-          width: 30px;
-          height: 30px;
+          width: 35px;
+          height: 32px;
           @include responsive(tablet) {
-            width: 25px;
+            width: 35px;
+            height: 32px;
+            margin-left: 8px;
           }
           @include responsive(mobile) {
-            width: 20px;
-            height: 23px;
+            width: 35px;
+            height: 32px;
+            margin-left: 8px;
             display: flex;
             align-items: center;
           }
         }
         h1 {
           color: white;
-          font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-          letter-spacing: 7px;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+          letter-spacing: 1px;
           font-size: 22px;
           margin: 0px 8px;
           font-weight: bold;
@@ -101,7 +104,6 @@
           }
           @include responsive(mobile) {
             font-size: 18px;
-            // background: orange;
             text-align: center;
             color: white;
             margin-left: 4px;
@@ -200,7 +202,7 @@
       margin: 20px;
       color: white;
       padding: 5px;
-      height: 232px;
+      height: 222px;
       width: 100%;
       @include responsive(tablet) {
         margin-bottom: 40px;
