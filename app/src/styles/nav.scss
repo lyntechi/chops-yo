@@ -13,6 +13,7 @@
   }
   .app-bar {
     width: 1150px;
+    // width: 100%;
     margin: 0 auto;
     background: #212020;
     display: flex;
@@ -28,6 +29,7 @@
       align-items: center;
       justify-content: space-between;
       width: 100%;
+
       @include responsive(mobile) {
         display: flex;
         // flex-direction: column;
@@ -38,6 +40,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         @include responsive(mobile) {
           margin-top: 5px;
         }
@@ -49,6 +52,7 @@
           outline: none;
           @include responsive(mobile) {
             font-size: 17px;
+            display: none;
           }
         }
         .menu-icon {
@@ -96,17 +100,19 @@
             font-size: 20px;
           }
           @include responsive(mobile) {
-            font-size: 17px;
+            font-size: 18px;
             // background: orange;
             text-align: center;
             color: white;
+            margin-left: 4px;
           }
         }
       }
       p {
         color: white;
         font-size: 16px;
-        margin-right: 20px;
+        margin: 20px 10px;
+
         @include responsive(tablet) {
           display: none;
         }
@@ -127,20 +133,24 @@
         }
       }
       .register-btn {
-        margin-left: 4px;
-        width: 80px;
-        border: 1px solid white;
         background: none;
-        color: white;
-        font-size: 16px;
+        margin-left: 20px;
+        border: 1px solid white;
         padding: 10px 10px;
+        font-size: 16px;
         cursor: pointer;
-        transition: 0.5s;
         outline: none;
+        @include responsive(tablet) {
+          display: block;
+        }
         @include responsive(mobile) {
-          padding: 2px 5px;
-          width: 68px;
-          display: none;
+          margin: 0px;
+          display: block;
+          padding: 4px 8px;
+          font-size: 12px;
+          background: none;
+          color: white;
+          border: 1px solid white;
         }
 
         &:hover {
@@ -149,11 +159,100 @@
           transition: 0.5s;
           border: none;
           padding: 10px 10px;
-          width: 80px;
           font-size: 16px;
           cursor: pointer;
         }
       }
+    }
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 100%;
+      height: 100%;
+      font-size: 13px;
+      @include responsive(tablet) {
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0px;
+      }
+    }
+    input {
+      background: none;
+      border: 2px solid white;
+      color: white;
+      padding: 10px;
+      width: 320px;
+      font-size: 13px;
+      @include responsive(tablet) {
+        width: 320px;
+      }
+      @include responsive(mobile) {
+        width: 250px;
+      }
+    }
+    textarea {
+      background: none;
+      border: 2px solid white;
+      margin: 20px;
+      color: white;
+      padding: 5px;
+      height: 232px;
+      width: 100%;
+      @include responsive(tablet) {
+        margin-bottom: 40px;
+        width: 320px;
+      }
+      @include responsive(mobile) {
+        width: 250px;
+      }
+    }
+
+    .first-row {
+      display: flex;
+      flex-direction: column;
+      align-items: space-between;
+      // height: 100%;
+    }
+    .second-row {
+      display: flex;
+      flex-direction: column;
+      align-items: space-between;
+      // height: 100%;
+    }
+    ::placeholder {
+      color: white;
+    }
+    select {
+      background: none;
+      border: 2px solid white;
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      width: 320px;
+      @include responsive(tablet) {
+        width: 320px;
+      }
+      @include responsive(mobile) {
+        width: 100%;
+      }
+    }
+    option {
+      color: black;
+    }
+    #root
+      > div
+      > section.reservations-section
+      > div
+      > form
+      > div:nth-child(2)
+      > form
+      > div
+      > div {
+      padding: 10px;
+      font-size: 13px;
     }
   }
 }
@@ -171,4 +270,7 @@ body
     text-decoration: none;
     color: white;
   }
+}
+#root > div > section.nav-section > div > header > div {
+  padding: 0px 4px;
 }

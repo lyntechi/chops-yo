@@ -7,17 +7,17 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexWrap: "wrap",
     color: "white",
-    background: "white",
-    width: "85%",
-    height: 50,
+    background: "none",
+    width: "100%",
+    
   },
   textField: {
     marginLeft: theme.spacing(0),
     marginRight: theme.spacing(0),
-    width: "90%",
-    height: 50,
+    width: "100%",
     border: "2px solid white",
     color: "white",
+    height: 43
   },
 }));
 

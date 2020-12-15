@@ -8,6 +8,7 @@ import bowl from "../images/bowl.png";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaSearch } from "react-icons/fa";
 import TemporaryDrawer from "./TemporaryDrawer";
+import TransitionsModal from './TransitionsModal'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,7 +46,7 @@ export default function ButtonAppBar() {
                 <p>lyndasantiag@gmail.com</p>
                 <p>Easton PA, USA</p>
                 <button className="login-btn">Login</button>
-                <button className="register-btn">Register</button>
+                 <TransitionsModal/>
                 <FaSearch className="search-icon" />
                 <TemporaryDrawer />
               </div>

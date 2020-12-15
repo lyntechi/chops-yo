@@ -63,9 +63,9 @@ export default function App() {
         <section className="chefs-section" id="chefs">
           <Chefs />
         </section>
-        <section className="reservations-section" id="resv">
+        {/* <section className="reservations-section" id="resv">
           <Reservations />
-        </section>
+        </section> */}
       </Route>
       <Route exact path="/item/:id">
         <section className="individual-section">

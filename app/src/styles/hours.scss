@@ -5,6 +5,8 @@
   background-attachment: fixed;
   background-size: cover;
   padding: 90px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
   @include responsive(mobile) {
   background-attachment: initial;
 
