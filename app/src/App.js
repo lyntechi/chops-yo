@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/main.scss";
-import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Trending from "./components/Trending";
 import About from "./components/About";
@@ -9,6 +8,7 @@ import Chefs from "./components/Chefs";
 import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
 import Menu from "./components/Menu";
+import ButtonAppBar from './components/ButtonAppBar';
 import {
   trendingFoods,
   foodsMenu,
@@ -24,7 +24,7 @@ export default function App() {
   return (
     <div className="App">
       <section className="nav-section">
-        <Nav />
+        <ButtonAppBar />
       </section>
       <Route exact path="/">
         <section className="header-section">
