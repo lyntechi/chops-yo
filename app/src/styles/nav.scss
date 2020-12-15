@@ -22,7 +22,6 @@
     }
     @include responsive(mobile) {
       width: 100%;
-    
     }
     .listItems {
       display: flex;
@@ -91,7 +90,7 @@
           letter-spacing: 7px;
           font-size: 22px;
           margin: 0px 8px;
-          font-weight: 100;
+          font-weight: bold;
           width: 100%;
           @include responsive(tablet) {
             font-size: 20px;
@@ -100,8 +99,7 @@
             font-size: 17px;
             // background: orange;
             text-align: center;
-            color:white;
-        
+            color: white;
           }
         }
       }
@@ -143,7 +141,6 @@
           padding: 2px 5px;
           width: 68px;
           display: none;
-
         }
 
         &:hover {
@@ -159,7 +156,6 @@
       }
     }
   }
-
 }
 .link {
   color: black;
