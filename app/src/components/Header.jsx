@@ -2,6 +2,9 @@ import React from "react";
 import steak4 from "../images/steak4.png";
 
 export default function Header() {
+  const alertMsg = () => {
+    alert("Ordering feature is still being worked on.");
+  };
   return (
     <div className="header-container">
       <div className="grid">
@@ -11,7 +14,7 @@ export default function Header() {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
           </p>
-          <button>Order Now</button>
+          <button onClick={alertMsg}>Order Now</button>
         </div>
         <div className="right-col">
           <img src={steak4} alt="" />
