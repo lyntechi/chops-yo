@@ -31,7 +31,7 @@
       width: 100%;
       @include responsive(mobile) {
         display: flex;
-        flex-direction: column;
+        // flex-direction: column;
         align-items: center;
         margin-top: 10px;
       }
@@ -49,7 +49,7 @@
           cursor: pointer;
           outline: none;
           @include responsive(mobile) {
-            font-size: 14px;
+            font-size: 17px;
           }
         }
         .menu-icon {
@@ -57,7 +57,7 @@
           font-size: 28px;
           outline: none;
           @include responsive(mobile) {
-            font-size: 16px;
+            font-size: 20px;
           }
         }
         .menu-item:hover {
@@ -79,8 +79,10 @@
             width: 25px;
           }
           @include responsive(mobile) {
-            width: 18px;
-            height: 20px;
+            width: 20px;
+            height: 23px;
+            display: flex;
+            align-items: center;
           }
         }
         h1 {
@@ -95,7 +97,11 @@
             font-size: 20px;
           }
           @include responsive(mobile) {
-            font-size: 18px;
+            font-size: 17px;
+            // background: orange;
+            text-align: center;
+            color:white;
+        
           }
         }
       }
@@ -119,6 +125,7 @@
         @include responsive(mobile) {
           padding: 2px 5px;
           width: 68px;
+          display: none;
         }
       }
       .register-btn {
@@ -135,6 +142,8 @@
         @include responsive(mobile) {
           padding: 2px 5px;
           width: 68px;
+          display: none;
+
         }
 
         &:hover {
@@ -150,27 +159,7 @@
       }
     }
   }
-  //   nav {
-  //     width: 1150px;
 
-  //     background: #212020;
-  //     margin: 0 auto;
-  //     // padding: 20px 0px;
-  //     display: flex;
-  //     align-items: center;
-  //     justify-content: center;
-  //     // padding: 30px 0px;
-
-  //     @include responsive(tablet) {
-  //       width: 600px;
-  //       // padding: 0px 10px;
-  //     }
-  //     @include responsive(mobile) {
-  //       width: 100%;
-  //       // padding: 35px 5px;
-  //       // height: 0px;
-  //     }
-  //   }
 }
 .link {
   color: black;
