@@ -318,7 +318,7 @@ export const infoAboutItem = [
   },
   {
     id: 3,
-    image: "https://i.ytimg.com/vi/_tys0GjiDNI/maxresdefault.jpg",
+    image: "https://i.imgur.com/6ZCvMjf.jpg",
     name: "Steak & Potatoes",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -331,7 +331,7 @@ export const infoAboutItem = [
   {
     id: 4,
     image:
-      "https://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1504210671/roasted-veggie-mac-cheese-1710p72.jpg?itok=CLLH63bB",
+      "https://i.imgur.com/hCRLzFy.jpg",
     name: "Veggies & Cheese",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -344,7 +344,7 @@ export const infoAboutItem = [
   {
     id: 5,
     image:
-      "https://static1.squarespace.com/static/56eb6c3f1bbee01a3c384d2f/t/57fcf947e3df2872da9a2492/1476196699329/20.jpg",
+      "https://i.imgur.com/MN3uRiZ.jpg",
     name: "Indian Cuisine",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -357,7 +357,7 @@ export const infoAboutItem = [
   {
     id: 6,
     image:
-      "http://collabkitchen.com/wp-content/uploads/2016/07/AdobeStock_106907944.jpeg",
+      "https://i.imgur.com/o6oYuY0.jpg",
     name: "Strawberry Cinnamon",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -370,7 +370,7 @@ export const infoAboutItem = [
   {
     id: 7,
     image:
-      "http://www.noshandnourish.com/sites/noshandnourish.com/files/styles/blog_list_page_image/public/purple-ice-cream-2-770.jpg?itok=Bgs8odg3",
+      "https://i.imgur.com/mPqWoD8.jpg",
     name: "Blackberry Swirl",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -383,7 +383,7 @@ export const infoAboutItem = [
   {
     id: 8,
     image:
-      "http://4.bp.blogspot.com/-YcLzgrXj9WM/Vaj9CMC40JI/AAAAAAAAGJ0/gGgNWBMa-ng/s1600/pmm%2B%25282%2529.JPG",
+      "https://i.imgur.com/TJHpMg2.jpg",
     name: "Pistachio Icecream",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -395,7 +395,7 @@ export const infoAboutItem = [
   },
   {
     id: 9,
-    image: "https://crummb.wordpress.com/files/2008/07/strawberry-cake-lo.jpg",
+    image: "https://i.imgur.com/mUmqloU.jpg",
     name: "Strawberry Cake",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -407,7 +407,7 @@ export const infoAboutItem = [
   },
   {
     id: 10,
-    image: "https://wallpapercave.com/wp/OLDQnUV.jpg",
+    image: "https://i.imgur.com/jLnkkbI.jpg",
     name: "Three Flavors",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -420,7 +420,7 @@ export const infoAboutItem = [
   {
     id: 11,
     image:
-      "http://4.bp.blogspot.com/--r8GKE3SZiY/Tej1JHaFi1I/AAAAAAAAE9o/bJfXgbX0KQ8/s1600/Salmon+Salad+3.JPG",
+      "https://i.imgur.com/mSCDk0c.jpg",
     name: "Salmon Salad",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -433,7 +433,7 @@ export const infoAboutItem = [
   {
     id: 12,
     image:
-      "http://1.bp.blogspot.com/-kP0pvxwC8j8/UXYX-ZrZEtI/AAAAAAAAJ74/_qrbEp-iTx8/s1600/buffalo-wings-3.jpg",
+      "https://i.imgur.com/PvunsU8.jpg",
     name: "Wings & Wild Rice",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -446,7 +446,7 @@ export const infoAboutItem = [
   {
     id: 13,
     image:
-      "https://media.blueapron.com/recipes/305/square_newsletter_images/20141218-2127-2-4446/turkey-breast-mashed-potatoes-SQ_hi_res.jpg",
+      "https://i.imgur.com/aCEedhH.jpg",
     name: "Turkey & Potatoes",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -459,7 +459,7 @@ export const infoAboutItem = [
   {
     id: 14,
     image:
-      "http://life-in-the-lofthouse.com/wp-content/uploads/2014/08/Shredded_Beef_Tacos.jpg",
+      "https://i.imgur.com/ENAJ3vM.jpg",
     name: "Beef Soft Tacos",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -472,7 +472,7 @@ export const infoAboutItem = [
   {
     id: 15,
     image:
-      "https://static.wixstatic.com/media/fa5b6a_03f1b1fd43b74e4fb61c8172dbbcb167~mv2_d_2048_1862_s_2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.png",
+      "https://i.imgur.com/3JYFlvo.png",
     name: "Wild Tuna Broccoli",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -485,7 +485,7 @@ export const infoAboutItem = [
   {
     id: 16,
     image:
-      "http://themarketplaceeatery.com/wp-content/uploads/2016/08/Burgers-Fries-6.jpg",
+      "https://i.imgur.com/MOG7m9Z.jpg",
     name: "Burger & Fries",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -498,7 +498,7 @@ export const infoAboutItem = [
   {
     id: 17,
     image:
-      "https://images.eatsmarter.com/sites/default/files/styles/920x690/public/meatloaf-with-eggs-carrots-and-mashed-potatoes-579380.jpg",
+      "https://i.imgur.com/zHfFJr6.jpg",
     name: "Loaf & Carrots",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -511,7 +511,7 @@ export const infoAboutItem = [
   {
     id: 22,
     image:
-      "https://mayasingredients.files.wordpress.com/2011/04/strawberry-smoothie-blog.jpg",
+      "https://i.imgur.com/28F3og1.jpg",
     name: "Strawberry Milkshake",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -524,7 +524,7 @@ export const infoAboutItem = [
   {
     id: 23,
     image:
-      "https://www.modernhoney.com/wp-content/uploads/2018/05/Caramel-Flan-7-1.jpg",
+      "https://i.imgur.com/pWp4WMA.jpg",
     name: "Caramel Flan",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -537,7 +537,7 @@ export const infoAboutItem = [
   {
     id: 24,
     image:
-      "https://dorastable.com/wp-content/uploads/2019/02/tres-leches-cake-14.jpg",
+      "https://i.imgur.com/dMzHyz6.jpg",
     name: "Tres Leches",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -550,7 +550,7 @@ export const infoAboutItem = [
   {
     id: 25,
     image:
-      "https://cf.ltkcdn.net/cocktails/images/orig/253009-2121x1414-peach-sangria.jpg",
+      "https://i.imgur.com/CzC6LD7.jpg",
     name: "Peach Cocktail",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -563,7 +563,7 @@ export const infoAboutItem = [
   {
     id: 26,
     image:
-      "http://www.onlyfoods.net/wp-content/uploads/2017/11/Best-New-Mojito-Drink-Recipe-Using-Captain-Morgan-Rum.jpg",
+      "https://i.imgur.com/GcUXIEw.jpg",
     name: "Mojito",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -576,7 +576,7 @@ export const infoAboutItem = [
   {
     id: 27,
     image:
-      "https://uk.thebar.com/assets/en-gb/Images/AI/34660_dia_1425_950_4_bloody-mary_46$$069A0000001gyN1IAI.jpg?maxheight=950&maxwidth=1425&quality=80",
+      "https://i.imgur.com/IjBsXqZ.jpg",
     name: "Bloody Mary",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -589,7 +589,7 @@ export const infoAboutItem = [
   {
     id: 28,
     image:
-      "https://cdn.pixabay.com/photo/2015/09/02/13/26/cocktail-919074_960_720.jpg",
+      "https://i.imgur.com/JgptasR.jpg",
     name: "Strawberry Orange",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -602,7 +602,7 @@ export const infoAboutItem = [
   {
     id: 29,
     image:
-      "https://www.artofdrink.com/wp-content/uploads/2016/02/rum-coke-coca-cola-cuba-libre-735x490.jpg",
+      "https://i.imgur.com/71F9aq6.jpg",
     name: "Dirty Lime Cola",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -615,7 +615,7 @@ export const infoAboutItem = [
   {
     id: 30,
     image:
-      "http://www.creative-culinary.com/wp-content/uploads/lavender-lemonade-martini.jpg",
+      "https://i.imgur.com/dlCcHfp.jpg",
     name: "Martini",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -628,7 +628,7 @@ export const infoAboutItem = [
   {
     id: 31,
     image:
-      "https://www.savour-magazine.co.uk/wp-content/uploads/2017/12/Blood-and-Sand-2.png",
+      "https://i.imgur.com/HGvJ1it.png",
     name: "Blood & Sand",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -641,7 +641,7 @@ export const infoAboutItem = [
   {
     id: 32,
     image:
-      "https://dmford.files.wordpress.com/2013/08/wpid7833-sidecar-8646.jpg?w=1204",
+      "https://i.imgur.com/G0MEyUW.jpg",
     name: "Sidecar",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -656,7 +656,7 @@ export const infoAboutItem = [
 export const chefData = [
   {
     image:
-      "https://static.wixstatic.com/media/e1c78c_a5a164acd00a4ae7940be550e4915303.jpg/v1/fill/w_1066,h_682,al_c,q_85,usm_0.66_1.00_0.01/e1c78c_a5a164acd00a4ae7940be550e4915303.webp",
+      "https://i.imgur.com/FZRKs9c.jpg",
     name: "JOHN KAE",
     title: "HEAD CHEF",
   },

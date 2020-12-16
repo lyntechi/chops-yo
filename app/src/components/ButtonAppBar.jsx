@@ -33,7 +33,7 @@ export default function ButtonAppBar() {
             <div className="listItems">
               <div className="img-logo">
                 <img
-                  src="https://cdn0.iconfinder.com/data/icons/fastfood-30/64/noodle-bowl-chopsticks-food-asian-ramen-spaghetti-256.png"
+                  src="https://i.imgur.com/OgRllUV.png"
                   alt=""
                   className="bowlImg"
                 />

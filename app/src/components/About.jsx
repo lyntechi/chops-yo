@@ -1,11 +1,14 @@
 import React from "react";
 import { BsArrowBarRight } from "react-icons/bs";
-import vegan from "../images/vegan.png";
 
 export default function About() {
   return (
     <div className="about-container">
-      <img src={vegan} className="vegan-dish" alt="" />
+      <img
+        src="https://i.imgur.com/lZ60UhR.png"
+        className="vegan-dish"
+        alt=""
+      />
       <img src="https://i.imgur.com/Q7PLVcE.png" alt="" className="dish-icon" />
       <h1 className="about-h1">About Our Food & Restaurant</h1>
       <p className="about-p">
