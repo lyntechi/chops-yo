@@ -9,7 +9,8 @@ body,
 html {
   background: ghostwhite;
 }
-.App{
-  margin: 0px;
-  overflow: hidden;
+
+html {
+  position: relative;
+  min-height: 100%;
 }

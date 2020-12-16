@@ -45,22 +45,19 @@ export const trendingDesserts = [
   },
   {
     id: 8,
-    image:
-      "https://i.imgur.com/bkAPW5j.png",
+    image: "https://i.imgur.com/bkAPW5j.png",
     name: "Pistachio Icecream",
     price: 15,
   },
   {
     id: 9,
-    image:
-      "https://i.imgur.com/DQLZTXx.png",
+    image: "https://i.imgur.com/DQLZTXx.png",
     name: "Strawberry Cake",
     price: 20,
   },
   {
     id: 10,
-    image:
-      "https://i.imgur.com/BtHDLAz.png",
+    image: "https://i.imgur.com/BtHDLAz.png",
     name: "Three Flavors",
     price: 12,
   },
@@ -69,8 +66,7 @@ export const trendingDesserts = [
 export const trendingDrinks = [
   {
     id: 25,
-    image:
-      "https://i.imgur.com/I318bnv.png",
+    image: "https://i.imgur.com/I318bnv.png",
     name: "Peach Cocktail",
     price: 40,
   },
@@ -82,22 +78,19 @@ export const trendingDrinks = [
   },
   {
     id: 27,
-    image:
-      "https://i.imgur.com/faxg8UT.png",
+    image: "https://i.imgur.com/faxg8UT.png",
     name: "Bloody Mary",
     price: 35,
   },
   {
     id: 28,
-    image:
-      "https://i.imgur.com/gM0ZnBM.png",
+    image: "https://i.imgur.com/gM0ZnBM.png",
     name: "Strawberry Orange",
     price: 15,
   },
   {
     id: 29,
-    image:
-      "https://i.imgur.com/8oQkY1Z.png",
+    image: "https://i.imgur.com/8oQkY1Z.png",
     name: "Dirty Lime Cola",
     price: 30,
   },
@@ -192,43 +185,37 @@ export const dessertsMenu = [
   },
   {
     id: 8,
-    image:
-      "https://i.imgur.com/bkAPW5j.png",
+    image: "https://i.imgur.com/bkAPW5j.png",
     name: "Pistachio Icecream",
     price: 15,
   },
   {
     id: 9,
-    image:
-      "https://i.imgur.com/DQLZTXx.png",
+    image: "https://i.imgur.com/DQLZTXx.png",
     name: "Strawberry Cake",
     price: 20,
   },
   {
     id: 10,
-    image:
-      "https://i.imgur.com/BtHDLAz.png",
+    image: "https://i.imgur.com/BtHDLAz.png",
     name: "Three Flavors",
     price: 12,
   },
   {
     id: 22,
-    image:
-      "https://i.imgur.com/PasxfHK.png",
+    image: "https://i.imgur.com/PasxfHK.png",
     name: "Stawberry Milkshake",
     price: 8,
   },
   {
     id: 23,
-    image:
-      "https://i.imgur.com/7GOf73h.png",
+    image: "https://i.imgur.com/7GOf73h.png",
     name: "Caramel Flan",
     price: 15,
   },
   {
     id: 24,
-    image:
-      "https://i.imgur.com/Al3JIYG.png",
+    image: "https://i.imgur.com/Al3JIYG.png",
     name: "Tres Leches",
     price: 30,
   },
@@ -236,8 +223,7 @@ export const dessertsMenu = [
 export const drinksMenu = [
   {
     id: 25,
-    image:
-      "https://i.imgur.com/I318bnv.png",
+    image: "https://i.imgur.com/I318bnv.png",
     name: "Peach Cocktail",
     price: 40,
   },
@@ -249,29 +235,25 @@ export const drinksMenu = [
   },
   {
     id: 27,
-    image:
-      "https://i.imgur.com/faxg8UT.png",
+    image: "https://i.imgur.com/faxg8UT.png",
     name: "Bloody Mary",
     price: 35,
   },
   {
     id: 28,
-    image:
-      "https://i.imgur.com/gM0ZnBM.png",
+    image: "https://i.imgur.com/gM0ZnBM.png",
     name: "Strawberry Orange",
     price: 15,
   },
   {
     id: 29,
-    image:
-      "https://i.imgur.com/8oQkY1Z.png",
+    image: "https://i.imgur.com/8oQkY1Z.png",
     name: "Dirty Lime Cola",
     price: 30,
   },
   {
     id: 30,
-    image:
-      "https://i.imgur.com/TcixZJb.png",
+    image: "https://i.imgur.com/TcixZJb.png",
     name: "Martini",
     price: 12,
   },
@@ -283,8 +265,7 @@ export const drinksMenu = [
   },
   {
     id: 32,
-    image:
-      "https://i.imgur.com/oWpZQ0t.png",
+    image: "https://i.imgur.com/oWpZQ0t.png",
     name: "Sidecar",
     price: 10,
   },
@@ -293,8 +274,7 @@ export const drinksMenu = [
 export const infoAboutItem = [
   {
     id: 1,
-    image:
-      "https://i.imgur.com/kQFv7PK.jpg",
+    image: "https://i.imgur.com/kQFv7PK.jpg",
     name: "Penne W. Red Pepper Sauce",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -306,8 +286,7 @@ export const infoAboutItem = [
   },
   {
     id: 2,
-    image:
-      "https://i.imgur.com/ZB1P1Ua.jpg",
+    image: "https://i.imgur.com/ZB1P1Ua.jpg",
     name: "Guac And Chips",
     rating: "https://mibaileperfecto.files.wordpress.com/2015/06/stars.png",
     price: 10,
@@ -330,8 +309,7 @@ export const infoAboutItem = [
   },
   {
     id: 4,
-    image:
-      "https://i.imgur.com/hCRLzFy.jpg",
+    image: "https://i.imgur.com/hCRLzFy.jpg",
     name: "Veggies & Cheese",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -343,8 +321,7 @@ export const infoAboutItem = [
   },
   {
     id: 5,
-    image:
-      "https://i.imgur.com/MN3uRiZ.jpg",
+    image: "https://i.imgur.com/MN3uRiZ.jpg",
     name: "Indian Cuisine",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -356,8 +333,7 @@ export const infoAboutItem = [
   },
   {
     id: 6,
-    image:
-      "https://i.imgur.com/o6oYuY0.jpg",
+    image: "https://i.imgur.com/o6oYuY0.jpg",
     name: "Strawberry Cinnamon",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -369,8 +345,7 @@ export const infoAboutItem = [
   },
   {
     id: 7,
-    image:
-      "https://i.imgur.com/mPqWoD8.jpg",
+    image: "https://i.imgur.com/mPqWoD8.jpg",
     name: "Blackberry Swirl",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -382,8 +357,7 @@ export const infoAboutItem = [
   },
   {
     id: 8,
-    image:
-      "https://i.imgur.com/TJHpMg2.jpg",
+    image: "https://i.imgur.com/TJHpMg2.jpg",
     name: "Pistachio Icecream",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -419,8 +393,7 @@ export const infoAboutItem = [
   },
   {
     id: 11,
-    image:
-      "https://i.imgur.com/mSCDk0c.jpg",
+    image: "https://i.imgur.com/mSCDk0c.jpg",
     name: "Salmon Salad",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -432,8 +405,7 @@ export const infoAboutItem = [
   },
   {
     id: 12,
-    image:
-      "https://i.imgur.com/PvunsU8.jpg",
+    image: "https://i.imgur.com/PvunsU8.jpg",
     name: "Wings & Wild Rice",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -445,8 +417,7 @@ export const infoAboutItem = [
   },
   {
     id: 13,
-    image:
-      "https://i.imgur.com/aCEedhH.jpg",
+    image: "https://i.imgur.com/aCEedhH.jpg",
     name: "Turkey & Potatoes",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -458,8 +429,7 @@ export const infoAboutItem = [
   },
   {
     id: 14,
-    image:
-      "https://i.imgur.com/ENAJ3vM.jpg",
+    image: "https://i.imgur.com/ENAJ3vM.jpg",
     name: "Beef Soft Tacos",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -471,8 +441,7 @@ export const infoAboutItem = [
   },
   {
     id: 15,
-    image:
-      "https://i.imgur.com/3JYFlvo.png",
+    image: "https://i.imgur.com/3JYFlvo.png",
     name: "Wild Tuna Broccoli",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -484,8 +453,7 @@ export const infoAboutItem = [
   },
   {
     id: 16,
-    image:
-      "https://i.imgur.com/MOG7m9Z.jpg",
+    image: "https://i.imgur.com/MOG7m9Z.jpg",
     name: "Burger & Fries",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -497,8 +465,7 @@ export const infoAboutItem = [
   },
   {
     id: 17,
-    image:
-      "https://i.imgur.com/zHfFJr6.jpg",
+    image: "https://i.imgur.com/zHfFJr6.jpg",
     name: "Loaf & Carrots",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -510,8 +477,7 @@ export const infoAboutItem = [
   },
   {
     id: 22,
-    image:
-      "https://i.imgur.com/28F3og1.jpg",
+    image: "https://i.imgur.com/28F3og1.jpg",
     name: "Strawberry Milkshake",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -523,8 +489,7 @@ export const infoAboutItem = [
   },
   {
     id: 23,
-    image:
-      "https://i.imgur.com/pWp4WMA.jpg",
+    image: "https://i.imgur.com/pWp4WMA.jpg",
     name: "Caramel Flan",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -536,8 +501,7 @@ export const infoAboutItem = [
   },
   {
     id: 24,
-    image:
-      "https://i.imgur.com/dMzHyz6.jpg",
+    image: "https://i.imgur.com/dMzHyz6.jpg",
     name: "Tres Leches",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -549,8 +513,7 @@ export const infoAboutItem = [
   },
   {
     id: 25,
-    image:
-      "https://i.imgur.com/CzC6LD7.jpg",
+    image: "https://i.imgur.com/CzC6LD7.jpg",
     name: "Peach Cocktail",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -562,8 +525,7 @@ export const infoAboutItem = [
   },
   {
     id: 26,
-    image:
-      "https://i.imgur.com/GcUXIEw.jpg",
+    image: "https://i.imgur.com/GcUXIEw.jpg",
     name: "Mojito",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -575,8 +537,7 @@ export const infoAboutItem = [
   },
   {
     id: 27,
-    image:
-      "https://i.imgur.com/IjBsXqZ.jpg",
+    image: "https://i.imgur.com/IjBsXqZ.jpg",
     name: "Bloody Mary",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -588,8 +549,7 @@ export const infoAboutItem = [
   },
   {
     id: 28,
-    image:
-      "https://i.imgur.com/JgptasR.jpg",
+    image: "https://i.imgur.com/JgptasR.jpg",
     name: "Strawberry Orange",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -601,8 +561,7 @@ export const infoAboutItem = [
   },
   {
     id: 29,
-    image:
-      "https://i.imgur.com/71F9aq6.jpg",
+    image: "https://i.imgur.com/71F9aq6.jpg",
     name: "Dirty Lime Cola",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -614,8 +573,7 @@ export const infoAboutItem = [
   },
   {
     id: 30,
-    image:
-      "https://i.imgur.com/dlCcHfp.jpg",
+    image: "https://i.imgur.com/dlCcHfp.jpg",
     name: "Martini",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -627,8 +585,7 @@ export const infoAboutItem = [
   },
   {
     id: 31,
-    image:
-      "https://i.imgur.com/HGvJ1it.png",
+    image: "https://i.imgur.com/HGvJ1it.png",
     name: "Blood & Sand",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -640,8 +597,7 @@ export const infoAboutItem = [
   },
   {
     id: 32,
-    image:
-      "https://i.imgur.com/G0MEyUW.jpg",
+    image: "https://i.imgur.com/G0MEyUW.jpg",
     name: "Sidecar",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -655,8 +611,7 @@ export const infoAboutItem = [
 
 export const chefData = [
   {
-    image:
-      "https://i.imgur.com/FZRKs9c.jpg",
+    image: "https://i.imgur.com/FZRKs9c.jpg",
     name: "JOHN KAE",
     title: "HEAD CHEF",
   },

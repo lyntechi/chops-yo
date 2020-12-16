@@ -3,7 +3,14 @@
 .footer-section {
   font-family: "Patrick Hand", cursive;
   background: #ffc400;
-  color: red;
+  color: rgb(230, 230, 230);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center;
+
   .footer-container {
     width: 1150px;
     margin: 0 auto;
