@@ -1,5 +1,5 @@
 <h1>Chops-yo Restaurant Website</h1>
-<a href="https://chops.netlify.app/">Visit Website</a>
+<a href="https://chops.netlify.app/" target="_blank">Visit Website</a>
 <hr/>
 <h4>Installation</h4>
 <p>This project uses npm. Use npm install in the /app directory.</p>
