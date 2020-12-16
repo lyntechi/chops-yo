@@ -12,6 +12,8 @@
   @include responsive(mobile) {
     background-attachment: initial;
     margin-bottom: 12rem;
+    padding-top: 30px;
+    padding-bottom: 100px;
   }
 
   .hours-container {
