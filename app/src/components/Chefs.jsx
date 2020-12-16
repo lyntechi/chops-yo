@@ -10,6 +10,8 @@ export default function Chefs({ image, title, smallTitle, contact }) {
         {" "}
         <img src={chefhat} alt="" className="chef-hat" />
         <h1>{title}</h1>
+        <img src={image} alt="" className='media-only'/>
+
         <p>
           <AiOutlineMinus className="dash" />
           {smallTitle} <AiOutlineMinus className="dash" />
