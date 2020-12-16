@@ -1,103 +1,109 @@
 @import "./mixins.scss";
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-
 
 .chefs-section {
   background: ghostwhite;
-  padding: 120px 0px;
-  @include responsive(mobile) {
+  padding: 40px 0px;
+
+  @include responsive(tablet) {
     padding: 50px 0px;
+  }
+  @include responsive(mobile) {
+    padding: 20px 0px;
   }
   .chefs-container {
     width: 1150px;
-    margin: 0 auto;
+    margin: 3rem auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+
+    @include responsive(tablet) {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: space-between;
+      justify-content: space-between;
+    }
+    .chef-img {
+      width: 50%;
+      height: auto;
+      transform: translateZ(0);
+      @include responsive(tablet) {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .chef-details {
+      width: 50%;
+      text-align: center;
+      padding: 0px 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      @include responsive(tablet) {
+        width: 100%;
+        height: 100%;
+      }
+      h1 {
+        font-size: 40px;
+        font-family: "Patrick Hand", cursive;
+
+        color: #212120;
+        @include responsive(tablet) {
+          font-size: 35px;
+        }
+        @include responsive(mobile) {
+          font-size: 25px;
+        }
+      }
+      .chef-hat {
+        width: 50px;
+        margin-bottom: 12px;
+      }
+      p {
+        color: #212120;
+        font-family: "Patrick Hand", cursive;
+        font-size: 1.4rem;
+        @include responsive(tablet) {
+          font-size: 1.2rem;
+        }
+        @include responsive(mobile) {
+          font-size: 1rem;
+          text-align: center;
+        }
+      }
+
+      .dash {
+        color: rgba(222, 218, 210);
+        font-size: 3rem;
+        @include responsive(mobile) {
+          font-size: 1rem;
+        }
+      }
+    }
     @include responsive(tablet) {
       width: 600px;
     }
     @include responsive(mobile) {
       width: 100%;
     }
-    h1 {
-      font-size: 48px;
-      font-family: "Fjalla One", sans-serif;
-      color: #212120;
-      @include responsive(tablet) {
-        font-size: 35px;
-      }
-      @include responsive(mobile) {
-        font-size: 25px;
-      }
-    }
-    .chef-hat {
-      width: 50px;
-      margin-bottom: 12px;
-    }
-    p {
-      color: #212120;
-      font-family: "Patrick Hand", cursive;
-      font-size: 1.6rem;
-      @include responsive(tablet) {
-        font-size: 1.2rem;
-      }
-      @include responsive(mobile) {
-        font-size: 1rem;
-        text-align: center;
-      }
-    }
-
-    .dash {
-      color: rgba(222, 218, 210);
-      font-size: 3rem;
-      @include responsive(mobile) {
-        font-size: 1rem;
-      }
-    }
-
-    .card-container {
-      display: flex;
-      justify-content: space-between;
-      @include responsive(mobile) {
-        display: flex;
-        flex-direction: column;
-      }
-      .card {
-        margin: 3px;
-        width: 100%;
-        @include responsive(mobile) {
-          width: 260px;
-          margin: 0 auto;
-        }
-        .card img {
-          width: 100%;
-          height: 320px;
-          margin: 0 auto;
-          transform: translateZ(0);
-
-        }
-        .card-body {
-          text-align: center;
-          background: #212120;
-        }
-
-        .card-title {
-          color: white;
-          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-            "Lucida Sans", Arial, sans-serif;
-          @include responsive(tablet) {
-            font-size: 1.2rem;
-          }
-        }
-
-        .card-text img {
-          width: 25px;
-          height: 25px;
-          margin: 8px;
-          cursor: pointer;
-        }
-      }
-    }
   }
+}
+#chefs > div:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  @include responsive(tablet) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: space-between;
+    justify-content: space-between;
+  }
+}
+#chefs > div:nth-child(1) > div > p:nth-child(3) {
+  color: rgb(247, 70, 70);
+}
+#chefs > div:nth-child(2) > div > p:nth-child(3) {
+  color: rgb(235, 160, 20);
 }

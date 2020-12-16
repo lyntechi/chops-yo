@@ -639,19 +639,20 @@ export const infoAboutItem = [
 export const chefData = [
   {
     image:
-      "https://news.stonybrook.edu/wp-content/uploads/2019/01/kwame-top-chef.jpg",
-    name: "JOHN DOE",
+      "https://static.wixstatic.com/media/e1c78c_a5a164acd00a4ae7940be550e4915303.jpg/v1/fill/w_1066,h_682,al_c,q_85,usm_0.66_1.00_0.01/e1c78c_a5a164acd00a4ae7940be550e4915303.webp",
+    name: "JOHN KAE",
     title: "HEAD CHEF",
   },
-  {
-    image: "https://www.ecpi.edu/sites/default/files/CIV%20Sept%2026.png",
-    name: "JANE DOE",
-    title: "PASTA CHEF",
-  },
-  {
-    image:
-      "https://www.hotelierindia.com/public/images/2017/12/20/Chef-Cheang-Chee-Leong-2048x1536px.jpg",
-    name: "JOHN DOE",
-    title: "FISH CHEF",
-  },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1548905131-34d75873c992?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  //   name: "JANE DOE",
+  //   title: "PASTA CHEF",
+  // },
+  // {
+  //   image:
+  //     "https://images.unsplash.com/photo-1580328079239-08db1aadb2e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1478&q=80",
+  //   name: "JOHN DOE",
+  //   title: "FISH CHEF",
+  // },
 ];

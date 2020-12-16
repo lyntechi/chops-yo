@@ -18,7 +18,7 @@ export default function Header() {
         </div>
         <div className="right-col">
           <img
-            src="http://pluspng.com/img-png/barbecue-food-png-bbq-transparent-background-700.png"
+            src="http://lapetitechaumette.l.a.pic.centerblog.net/kisspng-kebab-brochette-shashlik-hors-d-oeuvre-pincho-shish-kabob-house-5b2ab1a0bae840.9172554215295246407656.png"
             alt=""
           />
         </div>

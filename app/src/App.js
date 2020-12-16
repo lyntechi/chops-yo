@@ -8,7 +8,7 @@ import Chefs from "./components/Chefs";
 import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
 import Menu from "./components/Menu";
-import ButtonAppBar from './components/ButtonAppBar';
+import ButtonAppBar from "./components/ButtonAppBar";
 import {
   trendingFoods,
   foodsMenu,
@@ -57,15 +57,23 @@ export default function App() {
         <section className="about-section" id="about">
           <About />
         </section>
+        <section className="chefs-section" id="chefs">
+          <Chefs
+            image="https://static.wixstatic.com/media/e1c78c_a5a164acd00a4ae7940be550e4915303.jpg/v1/fill/w_1066,h_682,al_c,q_85,usm_0.66_1.00_0.01/e1c78c_a5a164acd00a4ae7940be550e4915303.webp"
+            title="Meet The Chef"
+            smallTitle="Known As One Of The Best In Town"
+            contact="Tel: 123-456-7890 | Email: chef@chops.com"
+          />
+          <Chefs
+            image="https://preview.colorlib.com/theme/dingo/img/about.png"
+            title="Where The Food’s As Good As The Root Beer."
+            smallTitle="Satisfying people hunger for simple pleasures
+            "
+          />
+        </section>
         <section className="hours-section" id="hours">
           <Hours />
         </section>
-        <section className="chefs-section" id="chefs">
-          <Chefs />
-        </section>
-        {/* <section className="reservations-section" id="resv">
-          <Reservations />
-        </section> */}
       </Route>
       <Route exact path="/item/:id">
         <section className="individual-section">
