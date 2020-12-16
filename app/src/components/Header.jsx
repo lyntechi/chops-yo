@@ -1,5 +1,4 @@
 import React from "react";
-import steak4 from "../images/steak4.png";
 
 export default function Header() {
   const alertMsg = () => {
@@ -17,10 +16,7 @@ export default function Header() {
           <button onClick={alertMsg}>Order Now</button>
         </div>
         <div className="right-col">
-          <img
-            src="https://i.imgur.com/BOvZ79S.png"
-            alt=""
-          />
+          <img src="https://i.imgur.com/BOvZ79S.png" alt="" />
         </div>
       </div>
     </div>

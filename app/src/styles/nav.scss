@@ -44,17 +44,7 @@
         @include responsive(mobile) {
           margin-top: 5px;
         }
-        .search-icon {
-          color: white;
-          margin-left: 20px;
-          font-size: 20px;
-          cursor: pointer;
-          outline: none;
-          @include responsive(mobile) {
-            font-size: 17px;
-            display: none;
-          }
-        }
+
         .menu-icon {
           color: white;
           font-size: 28px;
@@ -121,22 +111,23 @@
       }
       .login-btn {
         background: orange;
-        width: 80px;
         margin-left: 20px;
         border: none;
         padding: 10px 10px;
         font-size: 16px;
         cursor: pointer;
         outline: none;
+        @include responsive(tablet) {
+          display: block;
+        }
         @include responsive(mobile) {
           padding: 2px 5px;
-          width: 68px;
           display: none;
         }
       }
       .register-btn {
         background: none;
-        margin-left: 20px;
+        margin-left: 0px;
         border: 1px solid white;
         padding: 10px 10px;
         font-size: 16px;
@@ -147,7 +138,6 @@
         }
         @include responsive(mobile) {
           margin: 0px;
-          display: block;
           padding: 4px 8px;
           font-size: 12px;
           background: none;
@@ -202,7 +192,7 @@
       margin: 20px;
       color: white;
       padding: 5px;
-      height: 222px;
+      height: 105px;
       width: 100%;
       @include responsive(tablet) {
         margin-bottom: 40px;

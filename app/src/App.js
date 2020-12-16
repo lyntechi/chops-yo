@@ -5,7 +5,6 @@ import Trending from "./components/Trending";
 import About from "./components/About";
 import Hours from "./components/Hours";
 import Chefs from "./components/Chefs";
-import Reservations from "./components/Reservations";
 import IndividualItem from "./components//IndividualItem";
 import Menu from "./components/Menu";
 import ButtonAppBar from "./components/ButtonAppBar";

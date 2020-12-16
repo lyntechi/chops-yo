@@ -4,9 +4,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
-import bowl from "../images/bowl.png";
 import { FiPhoneCall } from "react-icons/fi";
-import { FaSearch } from "react-icons/fa";
 import TemporaryDrawer from "./TemporaryDrawer";
 import TransitionsModal from "./TransitionsModal";
 
@@ -49,9 +47,8 @@ export default function ButtonAppBar() {
                 </p>
                 <p>lyndasantiag@gmail.com</p>
                 <p>Easton PA, USA</p>
-                <button className="login-btn">Login</button>
+                <p className="login-btn">Login</p>
                 <TransitionsModal />
-                <FaSearch className="search-icon" />
                 <TemporaryDrawer />
               </div>
             </div>

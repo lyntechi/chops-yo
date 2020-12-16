@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     background: "none",
     width: "100%",
-    
   },
   textField: {
     marginLeft: theme.spacing(0),
@@ -17,8 +16,8 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     border: "1px solid orange",
     color: "white",
-    height: 43
-    
+    height: 43,
+    background: "orange",
   },
 }));
 
@@ -28,7 +27,7 @@ export default function DatePickers() {
   return (
     <form className={classes.container} noValidate>
       <TextField
-      placeholder="pick a date"
+        placeholder="pick a date"
         id="date"
         type="date"
         defaultValue="DATE"

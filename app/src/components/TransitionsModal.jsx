@@ -52,11 +52,7 @@ export default function TransitionsModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <form>
-              <AiFillCloseSquare
-              className='form-close'
-              onClick={handleClose}
-              
-              />
+              <AiFillCloseSquare className="form-close" onClick={handleClose} />
               <div className="first-row">
                 <input type="text" placeholder="YOUR NAME*" />
 
@@ -72,17 +68,10 @@ export default function TransitionsModal() {
               <div>
                 <input type="email" placeholder="EMAIL" />
                 <br />
-                <select>
-                  <option>PREFERED FOOD</option>
-                  <option>SEA FOOD</option>
-                  <option>CHICKEN</option>
-                  <option>STEAK</option>
-                  <option>DESERTS</option>
-                </select>{" "}
-                <br />
+
                 <input type="text" placeholder="NUMBER OF PEOPLE" />
-                <br />
-                <DatePickers /> <br />
+
+                <DatePickers />
               </div>
               <textarea placeholder="ANYTHING ELSE WE SHOULD KNOW?" />
             </form>{" "}

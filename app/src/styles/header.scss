@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-position: center;
   @include responsive(mobile) {
-   background-attachment: initial;
+    background-attachment: initial;
   }
   .header-container {
     width: 1150px;
