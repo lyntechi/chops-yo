@@ -46,21 +46,21 @@ export const trendingDesserts = [
   {
     id: 8,
     image:
-      "https://babcockhalldairystore.wisc.edu/wp-content/uploads/2018/02/Grasshopper-Ice-Cream-transparent-background-400x400.png",
+      "https://i.imgur.com/bkAPW5j.png",
     name: "Pistachio Icecream",
     price: 15,
   },
   {
     id: 9,
     image:
-      "https://userscontent2.emaze.com/images/59c9d840-72e6-4e17-b371-fbb208277117/81ff6386d56c1969cf49e3ab49fcc797.png",
+      "https://i.imgur.com/DQLZTXx.png",
     name: "Strawberry Cake",
     price: 20,
   },
   {
     id: 10,
     image:
-      "https://www.pngarts.com/files/1/Ice-Cream-Desserts-Transparent-Images.png",
+      "https://i.imgur.com/BtHDLAz.png",
     name: "Three Flavors",
     price: 12,
   },
@@ -70,7 +70,7 @@ export const trendingDrinks = [
   {
     id: 25,
     image:
-      "http://www.pngpix.com/wp-content/uploads/2016/08/PNGPIX-COM-Cocktail-Glass-PNG-Transparent-Image.png",
+      "https://i.imgur.com/I318bnv.png",
     name: "Peach Cocktail",
     price: 40,
   },
@@ -83,21 +83,21 @@ export const trendingDrinks = [
   {
     id: 27,
     image:
-      "https://img.pngio.com/bloody-mary-png-92-images-in-collection-page-3-bloody-mary-png-305_329.png",
+      "https://i.imgur.com/faxg8UT.png",
     name: "Bloody Mary",
     price: 35,
   },
   {
     id: 28,
     image:
-      "https://i2.wp.com/freepngimages.com/wp-content/uploads/2016/03/summer-fruits-drink-transparent-background.png?fit=624%2C624",
+      "https://i.imgur.com/gM0ZnBM.png",
     name: "Strawberry Orange",
     price: 15,
   },
   {
     id: 29,
     image:
-      "https://i.pinimg.com/originals/3e/b0/dd/3eb0dd985b188a0bdd248cd7d38d56a9.png",
+      "https://i.imgur.com/8oQkY1Z.png",
     name: "Dirty Lime Cola",
     price: 30,
   },
@@ -193,42 +193,42 @@ export const dessertsMenu = [
   {
     id: 8,
     image:
-      "https://babcockhalldairystore.wisc.edu/wp-content/uploads/2018/02/Grasshopper-Ice-Cream-transparent-background-400x400.png",
+      "https://i.imgur.com/bkAPW5j.png",
     name: "Pistachio Icecream",
     price: 15,
   },
   {
     id: 9,
     image:
-      "https://userscontent2.emaze.com/images/59c9d840-72e6-4e17-b371-fbb208277117/81ff6386d56c1969cf49e3ab49fcc797.png",
+      "https://i.imgur.com/DQLZTXx.png",
     name: "Strawberry Cake",
     price: 20,
   },
   {
     id: 10,
     image:
-      "https://www.pngarts.com/files/1/Ice-Cream-Desserts-Transparent-Images.png",
+      "https://i.imgur.com/BtHDLAz.png",
     name: "Three Flavors",
     price: 12,
   },
   {
     id: 22,
     image:
-      "http://d3v94a7qdcaz3a.cloudfront.net/images/uploads/detail_Strawberry_Banana_Sunrise_Smoothie.png",
+      "https://i.imgur.com/PasxfHK.png",
     name: "Stawberry Milkshake",
     price: 8,
   },
   {
     id: 23,
     image:
-      "https://66.media.tumblr.com/3033c226594f235b6c7f6eb239d82ca2/tumblr_nsc1pyxu0E1uyxczto1_500.png",
+      "https://i.imgur.com/7GOf73h.png",
     name: "Caramel Flan",
     price: 15,
   },
   {
     id: 24,
     image:
-      "https://toppng.com/uploads/thumbnail/tres-leches-decoracion-pastel-3-leches-11563348076ko5bzrow4l.png",
+      "https://i.imgur.com/Al3JIYG.png",
     name: "Tres Leches",
     price: 30,
   },
@@ -237,54 +237,54 @@ export const drinksMenu = [
   {
     id: 25,
     image:
-      "http://www.pngpix.com/wp-content/uploads/2016/08/PNGPIX-COM-Cocktail-Glass-PNG-Transparent-Image.png",
+      "https://i.imgur.com/I318bnv.png",
     name: "Peach Cocktail",
     price: 40,
   },
   {
     id: 26,
-    image: "http://www.pngmart.com/files/4/Mojito-Transparent-Background.png",
+    image: "https://i.imgur.com/xA1PzLJ.png",
     name: "Mojito",
     price: 20,
   },
   {
     id: 27,
     image:
-      "https://img.pngio.com/bloody-mary-png-92-images-in-collection-page-3-bloody-mary-png-305_329.png",
+      "https://i.imgur.com/faxg8UT.png",
     name: "Bloody Mary",
     price: 35,
   },
   {
     id: 28,
     image:
-      "https://i2.wp.com/freepngimages.com/wp-content/uploads/2016/03/summer-fruits-drink-transparent-background.png?fit=624%2C624",
+      "https://i.imgur.com/gM0ZnBM.png",
     name: "Strawberry Orange",
     price: 15,
   },
   {
     id: 29,
     image:
-      "https://i.pinimg.com/originals/3e/b0/dd/3eb0dd985b188a0bdd248cd7d38d56a9.png",
+      "https://i.imgur.com/8oQkY1Z.png",
     name: "Dirty Lime Cola",
     price: 30,
   },
   {
     id: 30,
     image:
-      "https://www.berentzenusa.com/wp/wp-content/uploads/2017/02/Recipe-Peach-Gin-Martini.png",
+      "https://i.imgur.com/TcixZJb.png",
     name: "Martini",
     price: 12,
   },
   {
     id: 31,
-    image: "https://www.pngimg.com/uploads/glass/wineglass_PNG2843.png",
+    image: "https://i.imgur.com/qdSKOHV.png",
     name: "Blood & Sand",
     price: 20,
   },
   {
     id: 32,
     image:
-      "https://media.woodfordreserve.com/wp-content/uploads/2015/06/19163256/Lemonade_Cocktail.png",
+      "https://i.imgur.com/oWpZQ0t.png",
     name: "Sidecar",
     price: 10,
   },
@@ -294,7 +294,7 @@ export const infoAboutItem = [
   {
     id: 1,
     image:
-      "https://www.eatwell101.com/wp-content/uploads/2017/11/sausage-and-pasta-recipes-for-dinner.jpg",
+      "https://i.imgur.com/kQFv7PK.jpg",
     name: "Penne W. Red Pepper Sauce",
     rating:
       "https://chicagospeechtherapy.com/wp-content/uploads/2018/11/five-stars4.png",
@@ -307,7 +307,7 @@ export const infoAboutItem = [
   {
     id: 2,
     image:
-      "https://dinnerthendessert.com/wp-content/uploads/2015/09/Chips-and-Guacamole-Close.jpg",
+      "https://i.imgur.com/ZB1P1Ua.jpg",
     name: "Guac And Chips",
     rating: "https://mibaileperfecto.files.wordpress.com/2015/06/stars.png",
     price: 10,
