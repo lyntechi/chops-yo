@@ -69,7 +69,7 @@ export const trendingDrinks = [
   },
   {
     id: 26,
-    image: "http://www.pngmart.com/files/4/Mojito-Transparent-Background.png",
+    image: "https://i.imgur.com/xA1PzLJ.png",
     name: "Mojito",
     price: 20,
   },

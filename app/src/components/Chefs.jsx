@@ -6,7 +6,6 @@ export default function Chefs({ image, title, smallTitle, contact }) {
   return (
     <div className="chefs-container">
       <img src={image} alt="" className="chef-img" />
-
       <div className="chef-details">
         {" "}
         <img src={chefhat} alt="" className="chef-hat" />
