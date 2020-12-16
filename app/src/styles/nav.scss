@@ -18,6 +18,7 @@
     background: #212020;
     display: flex;
     align-items: center;
+
     @include responsive(tablet) {
       width: 100%;
     }
@@ -83,7 +84,7 @@
         }
         h1 {
           color: white;
-          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+          // font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
           letter-spacing: 1px;
           font-size: 22px;
           margin: 0px 8px;

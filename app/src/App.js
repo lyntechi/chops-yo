@@ -8,6 +8,7 @@ import Chefs from "./components/Chefs";
 import IndividualItem from "./components//IndividualItem";
 import Menu from "./components/Menu";
 import ButtonAppBar from "./components/ButtonAppBar";
+import FooterPage from "./components/Footer.jsx";
 import {
   trendingFoods,
   foodsMenu,
@@ -72,6 +73,11 @@ export default function App() {
         </section>
         <section className="hours-section" id="hours">
           <Hours />
+        </section>
+        <section className="footer-section">
+          <div className="footer-container">
+            <FooterPage />
+          </div>
         </section>
       </Route>
       <Route exact path="/item/:id">
