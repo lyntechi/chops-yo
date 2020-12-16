@@ -26,6 +26,7 @@ export default function App() {
       <section className="nav-section">
         <ButtonAppBar />
       </section>
+
       <Route exact path="/">
         <section className="header-section">
           <Header />
@@ -74,11 +75,6 @@ export default function App() {
         <section className="hours-section" id="hours">
           <Hours />
         </section>
-        <section className="footer-section">
-          <div className="footer-container">
-            <FooterPage />
-          </div>
-        </section>
       </Route>
       <Route exact path="/item/:id">
         <section className="individual-section">
@@ -100,6 +96,11 @@ export default function App() {
           <Menu menu={drinksMenu} />
         </section>
       </Route>
+      <section className="footer-section">
+        <div className="footer-container">
+          <FooterPage />
+        </div>
+      </section>
     </div>
   );
 }
