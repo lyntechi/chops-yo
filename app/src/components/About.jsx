@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="about-container">
       <img src={vegan} className="vegan-dish" alt="" />
-      <img src="https://i.imgur.com/eUYfJJ4.png" alt="" className="dish-icon" />
+      <img src="https://i.imgur.com/Q7PLVcE.png" alt="" className="dish-icon" />
       <h1 className="about-h1">About Our Food & Restaurant</h1>
       <p className="about-p">
         Contrary to popular belief, Lorem Ipsum is not simply random text. It

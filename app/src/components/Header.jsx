@@ -18,7 +18,7 @@ export default function Header() {
         </div>
         <div className="right-col">
           <img
-            src="http://lapetitechaumette.l.a.pic.centerblog.net/kisspng-kebab-brochette-shashlik-hors-d-oeuvre-pincho-shish-kabob-house-5b2ab1a0bae840.9172554215295246407656.png"
+            src="https://i.imgur.com/BOvZ79S.png"
             alt=""
           />
         </div>
