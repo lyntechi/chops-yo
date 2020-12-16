@@ -8,11 +8,14 @@
 <p>React Redux</p>
 <hr/>
 <h4>Libraries & Programming Languages Used</h4>
-React
-React Router DOM
-Javascript
-Sass
-Material UI
-Bootstrap
-React-icons
-Reactstrap
+<li>React</li>
+<li>React Router DOM</li>
+<li>Javascript</li>
+<li>Sass</li>
+<li>Material UI</li>
+<li>React-icons</li>
+<li>Redux</li>
+
+
+
+
