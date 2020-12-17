@@ -7,13 +7,13 @@
   padding: 120px 0px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 15rem;
+  margin-bottom: 7rem;
   @include responsive(tablet) {
     background-attachment: initial;
   }
   @include responsive(mobile) {
     background-attachment: initial;
-    margin-bottom: 12rem;
+    margin-bottom: 7rem;
     padding-top: 30px;
     padding-bottom: 100px;
   }

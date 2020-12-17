@@ -3,7 +3,7 @@
 .menu-section {
   padding-top: 200px;
   background: ghostwhite;
-  margin-bottom: 14rem;
+  margin-bottom: 7rem;
   height: 100%;
   min-height: 100vh;
   @include responsive(mobile) {
@@ -24,7 +24,9 @@
     }
     @include responsive(mobile) {
       width: 100%;
-      padding: 0px 50px;
+      padding: 0px;
+      display: flex;
+      justify-content: center;
     }
     .menu-titles {
       display: flex;
@@ -32,6 +34,9 @@
       align-items: center;
       @include responsive(tablet) {
         margin-bottom: 10rem;
+      }
+      @include responsive(mobile) {
+        margin: 0px 30px;
       }
       p {
         color: #212120;

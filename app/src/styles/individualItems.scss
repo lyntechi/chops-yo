@@ -5,10 +5,10 @@
   min-height: 100vh;
   padding-top: 150px;
   background: ghostwhite;
-  margin-bottom: 15rem;
+  margin-bottom: 7rem;
   @include responsive(mobile) {
     padding-top: 75px;
-    margin-bottom: 12rem;
+    margin-bottom: 7rem;
   }
 
   .individualItemContainer {

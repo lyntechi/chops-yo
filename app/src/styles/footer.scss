@@ -20,7 +20,7 @@
     }
 
     footer {
-      padding: 20px 0px;
+      padding: 5px 0px;
       display: flex;
       justify-content: center;
       @include responsive(tablet) {
@@ -70,7 +70,7 @@
           width: 30px;
           margin-left: 8px;
           margin-right: 8px;
-          margin-bottom: 12px;
+          margin-bottom: 4px;
           cursor: pointer;
           @include responsive(tablet) {
             width: 30px;
@@ -80,15 +80,7 @@
             margin: 5px 8px;
           }
         }
-        .chops-logo {
-          width: 60px;
-          height: 60px;
-          margin-bottom: 4px;
-          @include responsive(tablet) {
-            width: 50px;
-            height: 50px;
-          }
-        }
+    
         .address {
           font-size: 14px;
           border: none;
