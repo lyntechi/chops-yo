@@ -8,6 +8,7 @@
   top: 0;
   right: 0;
   left: 0;
+  
   header {
     background: #212020;
   }
@@ -149,7 +150,7 @@
           background: orange;
           color: black;
           transition: 0.5s;
-          border: none;
+          border: 1px solid rgba(255, 255, 255, 0);
           padding: 10px 10px;
           font-size: 16px;
           cursor: pointer;

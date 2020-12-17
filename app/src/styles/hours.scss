@@ -8,7 +8,9 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 15rem;
-
+  @include responsive(tablet) {
+    background-attachment: initial;
+  }
   @include responsive(mobile) {
     background-attachment: initial;
     margin-bottom: 12rem;
