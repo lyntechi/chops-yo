@@ -293,6 +293,12 @@
           margin: 15px 0px;
           font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
             "Lucida Sans", Arial, sans-serif;
+            @include responsive(mobile) {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              padding: 5px;
+            }
           img {
             width: 95px;
             height: 80px;
@@ -326,11 +332,7 @@
               top: 2px;
             }
           }
-          @include responsive(mobile) {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-          }
+        
         }
       }
     }
