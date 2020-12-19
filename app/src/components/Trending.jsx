@@ -1,19 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Trending(
-  
-  {
-    data,
-    title,
-    arrowForFoods,
-    arrowForDesserts,
-    arrowForDrinks,
-    goToDrinksMenu,
-    goToDessertsMenu,
-    goToFoodsMenu,
-  }
-) {
+export default function Trending({
+  data,
+  title,
+  arrowForFoods,
+  arrowForDesserts,
+  arrowForDrinks,
+  goToDrinksMenu,
+  goToDessertsMenu,
+  goToFoodsMenu,
+}) {
   return (
     <div className="trending-container">
       <h1>{title}</h1>
@@ -58,4 +55,3 @@ export default function Trending(
     </div>
   );
 }
-

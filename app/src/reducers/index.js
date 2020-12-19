@@ -1,12 +1,14 @@
 import { combineReducers } from "redux";
-import trendingFoodsReducer from "./reducer-trending-foods";
-import trendingDessertsReducer from "./reducer-trending-desserts";
-import trendingDrinksReducer from './reducer-trending-drinks'
+import trendingFoods from "./trendingFoods";
+import trendingDesserts from "./trendingDesserts";
+import trendingDrinks from "./trendingDrinks";
+import foodsMenu from "./foodsMenu";
 
 const allReducers = combineReducers({
-  trendingFoods: trendingFoodsReducer,
-  trendingDesserts: trendingDessertsReducer,
-  trendingDrinks: trendingDrinksReducer
+  trendingFoods: trendingFoods,
+  trendingDesserts: trendingDesserts,
+  trendingDrinks: trendingDrinks,
+  foodsMenu: foodsMenu,
 });
 
-export default allReducers
+export default allReducers;

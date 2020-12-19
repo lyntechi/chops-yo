@@ -9,7 +9,7 @@ import IndividualItem from "./components//IndividualItem";
 import Menu from "./components/Menu";
 import ButtonAppBar from "./components/ButtonAppBar";
 import FooterPage from "./components/Footer.jsx";
-import { foodsMenu, dessertsMenu, drinksMenu } from "./data";
+import { dessertsMenu, drinksMenu } from "./data";
 import { Route } from "react-router-dom";
 import { BsArrowBarRight } from "react-icons/bs";
 import { connect } from "react-redux";
@@ -77,7 +77,7 @@ function App(props) {
       </Route>
       <Route exact path="/menu">
         <section className="menu-section">
-          <Menu menu={foodsMenu} />
+          <Menu menu={props.foodsMenu} />
         </section>
       </Route>
       <Route exact path="/desert-menu">
@@ -106,6 +106,7 @@ function mapStateToProps(state) {
     trendingFoods: state.trendingFoods,
     trendingDesserts: state.trendingDesserts,
     trendingDrinks: state.trendingDrinks,
+    foodsMenu: state.foodsMenu,
   };
 }
 
