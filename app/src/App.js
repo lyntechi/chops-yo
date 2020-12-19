@@ -9,18 +9,12 @@ import IndividualItem from "./components//IndividualItem";
 import Menu from "./components/Menu";
 import ButtonAppBar from "./components/ButtonAppBar";
 import FooterPage from "./components/Footer.jsx";
-import {
-  trendingFoods,
-  foodsMenu,
-  trendingDesserts,
-  dessertsMenu,
-  trendingDrinks,
-  drinksMenu,
-} from "./data";
+import { foodsMenu, dessertsMenu, drinksMenu } from "./data";
 import { Route } from "react-router-dom";
 import { BsArrowBarRight } from "react-icons/bs";
+import { connect } from "react-redux";
 
-export default function App() {
+function App(props) {
   return (
     <div className="App">
       <section className="nav-section">
@@ -33,7 +27,7 @@ export default function App() {
         </section>
         <section className="trending-section" id="foods">
           <Trending
-            data={trendingFoods}
+            data={props.trendingFoods}
             title={"Trending Foods"}
             goToFoodsMenu="Go To Full Menu"
             arrowForFoods={<BsArrowBarRight className="arrow" />}
@@ -41,7 +35,7 @@ export default function App() {
         </section>
         <section className="trending-section" id="desserts">
           <Trending
-            data={trendingDesserts}
+            data={props.trendingDesserts}
             title={"Trending Desserts"}
             goToDessertsMenu="Go To Full Menu"
             arrowForDesserts={<BsArrowBarRight className="arrow" />}
@@ -49,7 +43,7 @@ export default function App() {
         </section>
         <section className="trending-section" id="drinks">
           <Trending
-            data={trendingDrinks}
+            data={props.trendingDrinks}
             title={"Trending Drinks"}
             goToDrinksMenu="Go To Full Menu"
             arrowForDrinks={<BsArrowBarRight className="arrow" />}
@@ -104,3 +98,15 @@ export default function App() {
     </div>
   );
 }
+
+function mapStateToProps(state) {
+  console.log("this is mapstate", state);
+
+  return {
+    trendingFoods: state.trendingFoods,
+    trendingDesserts: state.trendingDesserts,
+    trendingDrinks: state.trendingDrinks,
+  };
+}
+
+export default connect(mapStateToProps, {})(App);

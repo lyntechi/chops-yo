@@ -1,100 +1,100 @@
-export const trendingFoods = [
-  {
-    id: 1,
-    image: "https://i.imgur.com/32Uf9eP.png",
-    name: "Red Pepper Pasta",
-    price: 40,
-  },
-  {
-    id: 2,
-    image: "https://i.imgur.com/KgwuBsE.png",
-    name: "Guac & Chips",
-    price: 10,
-  },
-  {
-    id: 3,
-    image: "https://i.imgur.com/lwARSfk.png",
-    name: "Steak & Potatoes",
-    price: 35,
-  },
-  {
-    id: 4,
-    image: "https://i.imgur.com/I1pYL6Z.png",
-    name: "Veggies & Cheese",
-    price: 25,
-  },
-  {
-    id: 5,
-    image: "https://i.imgur.com/BYsgnSF.png",
-    name: "Indian Cuisine",
-    price: 40,
-  },
-];
-export const trendingDesserts = [
-  {
-    id: 6,
-    image: "https://i.imgur.com/9i9jCl2.png",
-    name: "Strawberry Cinnamon",
-    price: 40,
-  },
-  {
-    id: 7,
-    image: "https://i.imgur.com/Ox8Ko9E.png",
-    name: "Blackberry Swirl",
-    price: 30,
-  },
-  {
-    id: 8,
-    image: "https://i.imgur.com/bkAPW5j.png",
-    name: "Pistachio Icecream",
-    price: 15,
-  },
-  {
-    id: 9,
-    image: "https://i.imgur.com/DQLZTXx.png",
-    name: "Strawberry Cake",
-    price: 20,
-  },
-  {
-    id: 10,
-    image: "https://i.imgur.com/BtHDLAz.png",
-    name: "Three Flavors",
-    price: 12,
-  },
-];
+// export const trendingFoods = [
+//   {
+//     id: 1,
+//     image: "https://i.imgur.com/32Uf9eP.png",
+//     name: "Red Pepper Pasta",
+//     price: 40,
+//   },
+//   {
+//     id: 2,
+//     image: "https://i.imgur.com/KgwuBsE.png",
+//     name: "Guac & Chips",
+//     price: 10,
+//   },
+//   {
+//     id: 3,
+//     image: "https://i.imgur.com/lwARSfk.png",
+//     name: "Steak & Potatoes",
+//     price: 35,
+//   },
+//   {
+//     id: 4,
+//     image: "https://i.imgur.com/I1pYL6Z.png",
+//     name: "Veggies & Cheese",
+//     price: 25,
+//   },
+//   {
+//     id: 5,
+//     image: "https://i.imgur.com/BYsgnSF.png",
+//     name: "Indian Cuisine",
+//     price: 40,
+//   },
+// ];
+// export const trendingDesserts = [
+//   {
+//     id: 6,
+//     image: "https://i.imgur.com/9i9jCl2.png",
+//     name: "Strawberry Cinnamon",
+//     price: 40,
+//   },
+//   {
+//     id: 7,
+//     image: "https://i.imgur.com/Ox8Ko9E.png",
+//     name: "Blackberry Swirl",
+//     price: 30,
+//   },
+//   {
+//     id: 8,
+//     image: "https://i.imgur.com/bkAPW5j.png",
+//     name: "Pistachio Icecream",
+//     price: 15,
+//   },
+//   {
+//     id: 9,
+//     image: "https://i.imgur.com/DQLZTXx.png",
+//     name: "Strawberry Cake",
+//     price: 20,
+//   },
+//   {
+//     id: 10,
+//     image: "https://i.imgur.com/BtHDLAz.png",
+//     name: "Three Flavors",
+//     price: 12,
+//   },
+// ];
 
-export const trendingDrinks = [
-  {
-    id: 25,
-    image: "https://i.imgur.com/I318bnv.png",
-    name: "Peach Cocktail",
-    price: 40,
-  },
-  {
-    id: 26,
-    image: "https://i.imgur.com/xA1PzLJ.png",
-    name: "Mojito",
-    price: 20,
-  },
-  {
-    id: 27,
-    image: "https://i.imgur.com/faxg8UT.png",
-    name: "Bloody Mary",
-    price: 35,
-  },
-  {
-    id: 28,
-    image: "https://i.imgur.com/gM0ZnBM.png",
-    name: "Strawberry Orange",
-    price: 15,
-  },
-  {
-    id: 29,
-    image: "https://i.imgur.com/8oQkY1Z.png",
-    name: "Dirty Lime Cola",
-    price: 30,
-  },
-];
+// export const trendingDrinks = [
+//   {
+//     id: 25,
+//     image: "https://i.imgur.com/I318bnv.png",
+//     name: "Peach Cocktail",
+//     price: 40,
+//   },
+//   {
+//     id: 26,
+//     image: "https://i.imgur.com/xA1PzLJ.png",
+//     name: "Mojito",
+//     price: 20,
+//   },
+//   {
+//     id: 27,
+//     image: "https://i.imgur.com/faxg8UT.png",
+//     name: "Bloody Mary",
+//     price: 35,
+//   },
+//   {
+//     id: 28,
+//     image: "https://i.imgur.com/gM0ZnBM.png",
+//     name: "Strawberry Orange",
+//     price: 15,
+//   },
+//   {
+//     id: 29,
+//     image: "https://i.imgur.com/8oQkY1Z.png",
+//     name: "Dirty Lime Cola",
+//     price: 30,
+//   },
+// ];
 
 export const foodsMenu = [
   {

@@ -1,3 +1,4 @@
+
 export default function trendingFoods() {
   return [
     {
@@ -30,5 +31,6 @@ export default function trendingFoods() {
       name: "Indian Cuisine",
       price: 40,
     },
+
   ];
 }
