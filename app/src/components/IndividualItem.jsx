@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { infoAboutItem } from "../data";
-import cart from "../images/cart.png";
+// import { infoAboutItem } from "../data";
 import Review from "./Review";
+import { connect } from "react-redux";
 
-export default function IndividualItem() {
+function IndividualItem(props) {
   const params = useParams();
-  const product = infoAboutItem.find((item) => `${item.id}` === params.id);
+  const product = props.infoAboutItem.find(
+    (item) => `${item.id}` === params.id
+  );
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -34,7 +36,7 @@ export default function IndividualItem() {
           </div>
 
           <div className="social-container">
-            <img src={cart} alt="" className="cart-icon" />
+            <img src='https://i.imgur.com/av9p2Dv.png' alt="" className="cart-icon" />
 
             <div>
               <img
@@ -61,3 +63,12 @@ export default function IndividualItem() {
     </div>
   );
 }
+function mapStateToProps(state) {
+  console.log("this is mapstate", state);
+
+  return {
+    infoAboutItem: state.infoAboutItem,
+  };
+}
+
+export default connect(mapStateToProps, {})(IndividualItem);

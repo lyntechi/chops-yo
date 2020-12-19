@@ -1,5 +1,4 @@
 import React from "react";
-import chefhat from "../images/chef.png";
 import { AiOutlineMinus } from "react-icons/ai";
 
 export default function Chefs({ image, title, smallTitle, contact }) {
@@ -8,10 +7,13 @@ export default function Chefs({ image, title, smallTitle, contact }) {
       <img src={image} alt="" className="chef-img" />
       <div className="chef-details">
         {" "}
-        <img src={chefhat} alt="" className="chef-hat" />
+        <img
+          src="https://i.imgur.com/XyIVQps.png"
+          alt=""
+          className="chef-hat"
+        />
         <h1>{title}</h1>
-        <img src={image} alt="" className='media-only'/>
-
+        <img src={image} alt="" className="media-only" />
         <p>
           <AiOutlineMinus className="dash" />
           {smallTitle} <AiOutlineMinus className="dash" />
