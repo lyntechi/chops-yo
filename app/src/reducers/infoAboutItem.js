@@ -10,7 +10,7 @@ export default function infoAboutItem() {
       type: "LUNCH",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export default function infoAboutItem() {
       type: "SNACK",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function infoAboutItem() {
       type: "DINNER",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ export default function infoAboutItem() {
       type: "LUNCH",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ export default function infoAboutItem() {
       type: "DINNER",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 6,
@@ -69,7 +69,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 7,
@@ -81,7 +81,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor ",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. ",
     },
     {
       id: 8,
@@ -93,7 +93,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 9,
@@ -105,7 +105,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle. Owned izzle dolor dapibizzle turpizzle tempizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 10,
@@ -117,7 +117,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 11,
@@ -129,7 +129,7 @@ export default function infoAboutItem() {
       type: "DINNER",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 12,
@@ -141,7 +141,7 @@ export default function infoAboutItem() {
       type: "DINNER",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 13,
@@ -153,7 +153,7 @@ export default function infoAboutItem() {
       type: "DINNER",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 14,
@@ -165,7 +165,7 @@ export default function infoAboutItem() {
       type: "LUNCH",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 15,
@@ -177,7 +177,7 @@ export default function infoAboutItem() {
       type: "LUNCH",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 16,
@@ -189,7 +189,7 @@ export default function infoAboutItem() {
       type: "LUNCH",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 17,
@@ -201,7 +201,7 @@ export default function infoAboutItem() {
       type: "LUNCH",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 22,
@@ -213,7 +213,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 23,
@@ -225,7 +225,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 24,
@@ -237,7 +237,7 @@ export default function infoAboutItem() {
       type: "DESSERT",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 25,
@@ -249,7 +249,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 26,
@@ -261,7 +261,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 27,
@@ -273,7 +273,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 28,
@@ -285,7 +285,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 29,
@@ -297,7 +297,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 30,
@@ -309,7 +309,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 31,
@@ -321,7 +321,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
       id: 32,
@@ -333,7 +333,7 @@ export default function infoAboutItem() {
       type: "ALCOHOLIC",
       availability: "IN STOCK",
       about:
-        "You son of a bizzle sure dolizzle sit ma nizzle, daahng dawg adipiscing phat. Funky fresh sapien velizzle, aliquet volutpizzle, shizzle my nizzle crocodizzle pimpin', gravida vizzle, pot. Pellentesque get down get down tortizzle. Sheezy erizzle.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
   ];
 }
